@@ -11,7 +11,7 @@ def create_embeddings(processed_csv_path: Path, overwrite: bool = False) -> int:
     Returns number of points uploaded.
     """
     # Load first 5 rows
-    df = pd.read_csv(processed_csv_path, nrows=5)
+    # df = pd.read_csv(processed_csv_path, nrows=5)
 
     # Create a temporary file
     # with tempfile.NamedTemporaryFile(mode="w", delete=False, suffix=".csv") as tmp:

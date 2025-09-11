@@ -153,30 +153,31 @@ if PROCESSED_CSV.exists():
     # Mode-specific interface
     if st.session_state.mode == "exact":
         st.header("🔍 Exact HTS Code Search")
-
+        
         hts_input = st.text_input(
             "Enter complete 10-digit HTS code:",
-            placeholder="e.g., 0101.21.0000",
+            placeholder="e.g., 0101210010 or 0101.21.00.10",
             key="exact_input"
         )
-
+        
         if st.button("Search", type="primary"):
             if hts_input:
                 with st.spinner("Searching database..."):
                     results = qa_agent.query_exact_hts(hts_input.strip(), k=5)
-
+                
                 if results:
                     st.success(f"Found {len(results)} matching records")
                     for i, result in enumerate(results, 1):
                         payload = result["payload"]
                         score = result.get("score", 0)
-
+                        
                         with st.expander(f"Result {i} - HTS: {payload.get('HTS Number', 'Unknown')} (Score: {score:.3f})"):
                             details = qa_agent.get_candidate_details(pd.Series(payload))
                             for key, value in details.items():
                                 st.write(f"**{key}:** {value}")
                 else:
                     st.warning("No exact matches found. Try a partial search instead.")
+
 
     elif st.session_state.mode == "partial":
         st.header("🔢 Partial HTS Code Search")
