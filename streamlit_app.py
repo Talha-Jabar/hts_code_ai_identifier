@@ -188,7 +188,7 @@ if PROCESSED_CSV.exists():
     # Final result
     if st.session_state.final_result is not None:
         st.divider()
-        st.balloons()
+        
         st.markdown('<div class="success-box">', unsafe_allow_html=True)
         st.header("✅ Classification Complete!")
         result = st.session_state.final_result
