@@ -94,7 +94,7 @@ if PROCESSED_CSV.exists():
     qa_agent = QueryAgent(str(PROCESSED_CSV))
 
     # Universal input field
-    st.header("🔎 Search")
+    st.header("Search")
     user_input = st.text_input(
         "Enter HTS Code (10-digit), Partial HTS Code (4/6 digits), or Product Description:",
         placeholder="e.g., 0101210010, 0101, textile, horse",
