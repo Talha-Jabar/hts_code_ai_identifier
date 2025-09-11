@@ -1,0 +1,31 @@
+I am not satisfied with LLM generating questions and the output is also not displayed. I am going to tell you exactly what you need to do at each step.
+
+Suppose user selects partial HTS Number from one of the three option:
+  - Complete 10-digit HTS Number
+  - Partial HTS (4/6 digit) Number
+  - Product description
+
+The user after selecting 2nd option, The user will enter partial HTS number, either 4 or 6 digit e.g. (0101 or 0101.21),
+Then the next will LLM come to start QA session.
+Suppose the user enters 0101, the LLM will perform its embeddings to match the query embeddings with documnet embeddings which was processed csv.
+The LLM will fetch 7 candidates because there are 7 HTS Numner that start with 0101. Then LLM as QA session on product specifications levels. Note that the questions should be based only on spec_levels,.For example:
+  - Is it a horse? The options should be yes or no. If user selects yes then, the candidates will narrow down to 4 because there are only 4 rows with horses spec level.
+  - Is it purebred? The options should be yes or no. If user selects no, the the candidates will narrow down to 2, because among 4 there was 2 with purebred spec level.
+  - Besides purebred, there are 2 left with same spec level with "other" in them. So we ask question based on next immediate spec level.
+  - Is it imported for immediate slaughter? The options should be yes or no. f the user selects no, then the candidate will narrow down to 1, because there was only 1 horse row with immediate slaughter spec.
+  - Now that we have final candidate, the app should automatically display it's details at the end:
+    - HTS Number
+    - Indent
+    - Description
+    - Specifications (Spec_Level_1 to so on, in single heading)
+    - Unit of Quantity
+    - General_Rate_of_Duty
+    - Special_Rate_of_Duty
+    - Column_2_Rate_of_Duty
+  - Now let's say if the user would have selected no option for 1st question, then the next question would be:
+    - Is it asses? If the user select no, then the next would be
+    - Is it imported for immediate slaughter? because the reamaining would be narrow down to 2 with same Spec_level_1, so the LLM would ask question based on next spec level.
+    - If the user again slects no, then there would only be 1 candidate remaining.
+
+So the scenario is, the questions can generate unlimitedly until we have on final candiate after confirminig user's choice or answer based on questions on each Spec_level.
+There might as well 10 Spec_levels each spec_level with different values in them in different rows but with same partial HTS number. So the LLM should be able to handle all of it.

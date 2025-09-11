@@ -1,0 +1,26 @@
+# Core
+python-dotenv
+pandas
+requests
+beautifulsoup4
+tqdm
+
+# Streamlit UI
+streamlit
+
+# LangChain LLM helpers
+langchain
+
+# OpenAI official client
+openai
+
+# Qdrant client for the vector DB (Qdrant Cloud)
+qdrant-client
+
+# Optional: Tavily SDK (replace with the official package name if different)
+tavily-python
+
+# Type helpers / testing
+pytest
+
+langchain-openai
