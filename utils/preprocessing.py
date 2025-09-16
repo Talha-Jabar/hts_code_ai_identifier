@@ -2,10 +2,8 @@
 import re
 import pandas as pd
 from pathlib import Path
-from typing import Tuple
 
 HTS_CODE_REGEX = re.compile(r"\b(\d{10})\b")
-
 
 def flatten_hts_with_indent(input_path: Path, output_path: Path, max_levels: int = 10) -> Path:
     """

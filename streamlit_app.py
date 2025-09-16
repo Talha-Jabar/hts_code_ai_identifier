@@ -29,7 +29,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Application header
-st.title("🔍 HTS Intelligent Classification Assistant")
+st.title("HTS Intelligent Classification Assistant")
 st.markdown("""
 **Smart HTS Code Finder**  
 Enter either a complete HTS code, partial HTS code (4/6 digits), or a product description.  
@@ -94,7 +94,7 @@ if PROCESSED_CSV.exists():
     qa_agent = QueryAgent(str(PROCESSED_CSV))
 
     # Universal input field
-    st.header("🔎 Search")
+    st.header("Search")
     user_input = st.text_input(
         "Enter HTS Code (10-digit), Partial HTS Code (4/6 digits), or Product Description:",
         placeholder="e.g., 0101210010, 0101, textile, horse",
