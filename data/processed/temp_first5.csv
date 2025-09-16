@@ -1,6 +1,0 @@
-HTS Number,Indent,Description,Unit of Quantity,General Rate of Duty,Special Rate of Duty,Column 2 Rate of Duty,Quota Quantity,Additional Duties,hts_code,specifications_combined,text,prefix4,prefix6
-0101,0,"Live horses, asses, mules and hinnies:",,,,,,,101.0,"Live horses, asses, mules and hinnies:","HTS: 0101 | Specs: Live horses, asses, mules and hinnies: | HTS Number: 0101 | Indent: 0 | Description: Live horses, asses, mules and hinnies:",101.0,
-,1,Horses:,,,,,,,,Horses:,Specs: Horses: | Indent: 1 | Description: Horses:,,
-0101.21.00,2,Purebred breeding animals,,Free,,Free,,,1012100.0,Purebred breeding animals,HTS: 01012100 | Specs: Purebred breeding animals | HTS Number: 0101.21.00 | Indent: 2 | Description: Purebred breeding animals | General Rate of Duty: Free | Column 2 Rate of Duty: Free,101.0,10121.0
-0101.21.00.10,3,Males,"[""No.""]",,,,,,101210010.0,Males,"HTS: 0101210010 | Specs: Males | HTS Number: 0101.21.00.10 | Indent: 3 | Description: Males | Unit of Quantity: [""No.""]",101.0,10121.0
-0101.21.00.20,3,Females,"[""No.""]",,,,,,101210020.0,Females,"HTS: 0101210020 | Specs: Females | HTS Number: 0101.21.00.20 | Indent: 3 | Description: Females | Unit of Quantity: [""No.""]",101.0,10121.0
