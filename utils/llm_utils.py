@@ -1,5 +1,4 @@
 # utils/llm_utils.py
-# Python 3.13 compatible LLM utilities
 # Simplified to remove generic question generation - now handled by QueryAgent
 
 from langchain_openai import ChatOpenAI

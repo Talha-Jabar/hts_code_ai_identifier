@@ -29,7 +29,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Application header
-st.title("🔍 HTS Intelligent Classification Assistant")
+st.title("HTS Intelligent Classification Assistant")
 st.markdown("""
 **Smart HTS Code Finder**  
 Enter either a complete HTS code, partial HTS code (4/6 digits), or a product description.  
