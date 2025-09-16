@@ -20,7 +20,6 @@ if not OPENAI_API_KEY:
 
 _openai_client = OpenAI(api_key=OPENAI_API_KEY)
 
-
 def embed_texts(texts: List[str], batch_size: int = 64) -> List[List[float]]:
     vectors = []
     for i in range(0, len(texts), batch_size):
@@ -33,12 +32,10 @@ def embed_texts(texts: List[str], batch_size: int = 64) -> List[List[float]]:
             vectors.append(item.embedding)
     return vectors
 
-
 def get_qdrant_client() -> QdrantClient:
     if not QDRANT_URL or not QDRANT_API_KEY:
         raise RuntimeError("QDRANT_URL and QDRANT_API_KEY must be set for Qdrant usage.")
     return QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY, timeout=60)
-
 
 def ensure_collection_and_indexes(vector_size: int = 1536):
     qdrant = get_qdrant_client()
@@ -61,7 +58,6 @@ def ensure_collection_and_indexes(vector_size: int = 1536):
             )
         except Exception:
             pass  # Index may already exist
-
 
 def build_vectorstore(processed_csv_path: Path, overwrite: bool = False) -> int:
     df = pd.read_csv(processed_csv_path, dtype=str).fillna("")
@@ -119,7 +115,6 @@ def build_vectorstore(processed_csv_path: Path, overwrite: bool = False) -> int:
 
     return len(points)
 
-
 def _build_prefix_filter(prefix4: Optional[str], prefix6: Optional[str], exact_hts: Optional[str]):
     must = []
     if exact_hts:
@@ -138,7 +133,6 @@ def _build_prefix_filter(prefix4: Optional[str], prefix6: Optional[str], exact_h
             match=qdrant_models.MatchValue(value=prefix4)
         ))
     return qdrant_models.Filter(must=must) if must else None
-
 
 def search_qdrant(query: str, k: int = 10, prefix4: Optional[str] = None,
                   prefix6: Optional[str] = None, exact_hts: Optional[str] = None) -> List[Dict]:

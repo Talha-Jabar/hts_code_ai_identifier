@@ -4,7 +4,6 @@
 from typing import List, Dict, Optional
 import pandas as pd
 from collections import Counter
-
 class QueryAgent:
     def __init__(self, processed_csv_path: str):
         """Initialize the QueryAgent with processed CSV data."""

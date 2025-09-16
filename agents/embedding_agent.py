@@ -1,7 +1,5 @@
 # agents/embedding_agent.py
 from pathlib import Path
-import pandas as pd
-import tempfile
 from utils.vectorstore import build_vectorstore
 
 def create_embeddings(processed_csv_path: Path, overwrite: bool = False) -> int:
