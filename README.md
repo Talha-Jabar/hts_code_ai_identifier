@@ -1,4 +1,4 @@
-# HTS Code Identifier
+# HTS Code Identifier & Tariff Duty Calculator
 
 Automates:
 
