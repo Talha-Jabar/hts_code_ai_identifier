@@ -1,0 +1,21 @@
+These are my code files that I have used, you can analyze them.
+For now, it's giving us HTS Number with it's duty information. As you can see in duty information there are three rate of duty mentioned, General rate of duty or Column 1 rate of duty that is applied to all countries, special rate of duty that is applied to 16 countries (countries ISO Codes are mention in parenthesis algonside mentioned special duty rate) and Column 2 rate of duty (the countries that include in this are Cuba, North korea, Russia and Belarus).
+General rate of duty means countries which have normal trade relations (NTR) with US, these will be the countries excluding countries that are mentioned in special rate of duty and column 2 rate of duty.
+While special rate of duty are countries that basically called most favored nations (MFN) with which they have good trade relations with few to zero percent tariff on products.
+While coulmn 2 are countries with which they do not have normal trade relations and have higher tariff rated.
+
+When we narrow down to 1 candidate, we in return have HTS Classification and duty information.
+
+Now I want to calculate the duty rate for the product that in importing in US from specific country. We are already getting HTS Tariff code and product description as well as duty information when we run our existing Streamlit app.
+So we can compute the duty rate by applying the formula in the backend and show the user the total duty rate that would be apply to his/her products.
+
+As you can see we can have multiple inputs that user will enter, like base product value, mode of transport, entry date, country of origin (we can pass list of countries through an external api and user can select country from dropdown), based on the selected country we will see how much duty rate would be apply on prodcuts, we will have this detail already from the exisiting application. The selected country will either be from the general rate of duty column, or special rate of duty or column 2 rate of duty.
+Also if the selected product contain copper, aluminium or platinum or iron (how much percent of a product contain these metals), then the special sections will be applied to it and based on the percentage, value will increase.
+We will also see if any exclusion codes are applicable to the specific product, if yes then the tariff rate will decrease. HTS (Harmonized Tariff Schedule) exclusion codes are product-specific and are listed under Chapter 99 of the HTS.
+
+For now we will use what we have, and the information that we do not have use dummy data for it, the end goal is to calculate duty rate (shown in percentage and also in value) of total value. While HTS Number will come  through query agent.
+Mode of transport usally have (Ocean, Air, Rail, Truck) options. Air, Rail and  Truck have ususally only merchandise processing fee (MPF), which is vary for each country. It will depend on distance with increasing distance will have higher amount. For example, say we are importing goods from china then the MPF will be $35, wile if we use ocean as a transport then it will also include Harbor Maintenance fee (HMF) besides MPF which will be $13 in case of china.
+
+We use mode of transport to calculate landed cost which calculated by adding Base Cost, Total Duties, HMF/MPF.
+
+Now update the code files as needed to achieve this task.
