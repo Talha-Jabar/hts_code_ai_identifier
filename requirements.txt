@@ -24,3 +24,5 @@ tavily-python
 pytest
 
 langchain-openai
+
+fastapi
