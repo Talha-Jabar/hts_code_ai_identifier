@@ -1,3 +1,4 @@
 .env
 __pycache__/
 hts_ai_rag
+data
