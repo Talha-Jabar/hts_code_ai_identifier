@@ -5,7 +5,7 @@ Contains two endpoints for HTS identification and duty calculation.
 To run this file, navigate to your project directory in the terminal and run:
 `uvicorn api.main:app --reload`
 """
-from fastapi import FastAPI, Depends, HTTPException, status
+from fastapi import FastAPI, Depends, HTTPException, status # type: ignore
 from pydantic import ValidationError
 from api.dependencies import get_query_agent
 from api.models import HTSIdentifierRequest, HTSIdentifierResponse, \
