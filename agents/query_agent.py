@@ -74,10 +74,10 @@ class QueryAgent:
                 
                 options = []
                 # If there are many options, group less common ones under "Other"
-                # to keep the UI clean. We'll show up to 3 most common options individually.
-                if len(sorted_values) > 4: 
-                    top_options = sorted_values[:3]
-                    other_count = sum(count for _, count in sorted_values[3:])
+                # to keep the UI clean. We'll show up to 5 most common options individually.
+                if len(sorted_values) > 6: 
+                    top_options = sorted_values[:5]
+                    other_count = sum(count for _, count in sorted_values[5:])
                     
                     for value, count in top_options:
                         options.append({
