@@ -1,5 +1,12 @@
 # utils/countries.py
 
+# utils/countries.py
+
+SPECIAL_RATE_COUNTRIES = {
+    "MX", "IL", "JO", "KR", "CL", "SG", "AU", "BH",
+    "MA", "OM", "PA", "PE", "CA", "CO", "CR", "DO"
+}
+
 # Countries subject to Column 2 duty rates
 # ISO 3166-1 alpha-2 codes
 COLUMN_2_COUNTRIES = ["CU", "KP", "RU", "BY"] # Cuba, North Korea, Russia, Belarus
