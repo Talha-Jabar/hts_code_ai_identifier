@@ -100,7 +100,7 @@ class QueryAgent:
                             "expected_count": other_count
                         })
                 else:
-                    # If there are 6 or fewer options, show all of them
+                    # If there are 10 or fewer options, show all of them
                     for value, count in sorted_values:
                         options.append({
                             "label": self._format_option_text(value),
