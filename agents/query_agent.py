@@ -4,6 +4,7 @@
 from typing import List, Dict, Optional
 import pandas as pd
 from collections import Counter
+
 class QueryAgent:
     def __init__(self, processed_csv_path: str):
         """Initialize the QueryAgent with processed CSV data."""
@@ -13,7 +14,11 @@ class QueryAgent:
         self.spec_cols = sorted(self.spec_cols, key=lambda x: int(x.split("_")[-1]))
 
         # Add normalized HTS Number column (digits only)
-        self.df["HTS_Normalized"] = self.df["HTS Number"].str.replace(".", "", regex=False)
+        # HTS_Digits is already the normalized form from preprocessing, let's use it for consistency
+        if "HTS_Digits" not in self.df.columns:
+             self.df["HTS_Digits"] = self.df["HTS Number"].str.replace(".", "", regex=False)
+        # Ensure HTS_Normalized exists for legacy calls if any, pointing to HTS_Digits
+        self.df["HTS_Normalized"] = self.df["HTS_Digits"]
 
     def get_candidates_by_prefix(self, prefix: str) -> pd.DataFrame:
         clean_prefix = prefix.replace(".", "").strip()
@@ -74,10 +79,10 @@ class QueryAgent:
                 
                 options = []
                 # If there are many options, group less common ones under "Other"
-                # to keep the UI clean. We'll show up to 5 most common options individually.
-                if len(sorted_values) > 6: 
-                    top_options = sorted_values[:5]
-                    other_count = sum(count for _, count in sorted_values[5:])
+                # to keep the UI clean. We'll show up to 9 most common options individually.
+                if len(sorted_values) > 10: 
+                    top_options = sorted_values[:9]
+                    other_count = sum(count for _, count in sorted_values[9:])
                     
                     for value, count in top_options:
                         options.append({
@@ -88,14 +93,14 @@ class QueryAgent:
                     
                     if other_count > 0:
                         # "filter_value" for "Other" is a list of all remaining values
-                        other_values = [val for val, _ in sorted_values[3:]]
+                        other_values = [val for val, _ in sorted_values[9:]]
                         options.append({
                             "label": "Other",
                             "filter_value": other_values,
                             "expected_count": other_count
                         })
                 else:
-                    # If there are 4 or fewer options, show all of them
+                    # If there are 6 or fewer options, show all of them
                     for value, count in sorted_values:
                         options.append({
                             "label": self._format_option_text(value),
@@ -116,7 +121,7 @@ class QueryAgent:
         return None # No question could be generated
 
     def filter_candidates_by_answer(self, candidates: pd.DataFrame,
-                                     question: Dict, selected_option: Dict) -> pd.DataFrame:
+                                      question: Dict, selected_option: Dict) -> pd.DataFrame:
         """
         Filters the candidate DataFrame based on the user's selected answer.
         Handles both single value and list-of-values filtering (for "Other").
@@ -136,9 +141,45 @@ class QueryAgent:
         else:
             return candidates[candidates[spec_col] == filter_value]
 
+    def get_chapter_description(self, candidates: pd.DataFrame) -> Optional[Dict[str, str]]:
+        """
+        ✨ NEW ✨
+        Determines the top-level chapter description for a set of candidates.
+        """
+        if candidates.empty:
+            return None
+
+        # Use the first 4 digits of the HTS code to identify the chapter
+        prefixes = candidates['HTS_Normalized'].str[:4]
+        if prefixes.empty:
+            return None
+        
+        # Find the most common chapter prefix among all candidates
+        most_common_prefix = Counter(prefixes).most_common(1)[0][0]
+
+        # Find the main chapter entry, which typically has an Indent of '0'
+        # and an HTS Number corresponding to the 4-digit chapter code.
+        chapter_row = self.df[
+            (self.df['HTS_Normalized'] == most_common_prefix) & (self.df['Indent'] == '0')
+        ]
+
+        if not chapter_row.empty:
+            description = chapter_row.iloc[0]['Description']
+            return {
+                "chapter_code": chapter_row.iloc[0]['HTS Number'],
+                "description": description.strip()
+            }
+        return None
+
     def _format_option_text(self, value: str) -> str:
         """Formats the text for a question option button."""
-        return value.strip().capitalize() if value else "Not specified"
+        import string
+        if not value:
+            return "Not specified"
+        # Remove punctuation and extra whitespace
+        clean_value = value.strip()
+        clean_value = "".join(char for char in clean_value if char not in string.punctuation)
+        return clean_value.strip().capitalize()
 
     def _generate_question_text(self, spec_col: str, values: List[str], candidates: pd.DataFrame) -> str:
         """
@@ -159,7 +200,7 @@ class QueryAgent:
                 # If there is exactly one common parent, use it to make the question more specific.
                 if len(parent_values) == 1:
                     parent_text = parent_values[0].strip().rstrip(':')
-                    return f"For '{parent_text}', which of the following applies?"
+                    return f"Regarding '{parent_text}', which of the following applies?"
 
         # Fallback to keyword-based question generation if a unique parent isn't found
         values_lower = [v.lower() for v in values if v]
@@ -177,7 +218,7 @@ class QueryAgent:
         elif any('fresh' in v or 'frozen' in v or 'dried' in v for v in values_lower):
             return "What is its preservation state?"
         elif level_num == 1:
-            return "What is the product category?"
+            return "What is the primary product category?"
         else:
             # A better generic fallback question
             return "Please select the most relevant characteristic:"
@@ -190,11 +231,15 @@ class QueryAgent:
             if value and value.strip():
                 specs.append(value.strip())
 
+        full_description_parts = [candidate.get("Description", "")] + specs
+        full_description = " > ".join(filter(None, full_description_parts))
+
         return {
             "HTS Number": candidate.get("HTS Number", ""),
             "Indent": candidate.get("Indent", ""),
             "Description": candidate.get("Description", ""),
-            "Specifications": " > ".join(specs) if specs else "No specifications",
+            "Specifications": " > ".join(specs[1:]) if len(specs) > 1 else "Base product",
+            "Full Description": full_description,
             "Unit of Quantity": candidate.get("Unit_of_Quantity", ""),
             "General Rate of Duty": candidate.get("General_Rate_of_Duty", ""),
             "Special Rate of Duty": candidate.get("Special_Rate_of_Duty", ""),

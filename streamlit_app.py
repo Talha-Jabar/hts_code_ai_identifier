@@ -13,7 +13,9 @@ from utils.countries import COUNTRY_LIST
 # Existing imports
 from chains.hts_chain import HTSOrchestrator
 from agents.query_agent import QueryAgent
-from utils.vectorstore import build_vectorstore
+
+# NOTE: The direct import of build_vectorstore is no longer needed here
+# from utils.vectorstore import build_vectorstore
 
 # Configuration
 BASE = Path(__file__).parent
@@ -53,7 +55,9 @@ if "initialized" not in st.session_state:
     st.session_state.initial_query = ""
     st.session_state.final_result = None
     st.session_state.question_count = 0
-    st.session_state.calculation_result = None # New state for calculation results
+    st.session_state.calculation_result = None
+    st.session_state.chapter_info = None
+    st.session_state.pipeline_status = ""
 
 def reset_session():
     st.session_state.candidates = pd.DataFrame()
@@ -62,29 +66,44 @@ def reset_session():
     st.session_state.initial_query = ""
     st.session_state.final_result = None
     st.session_state.question_count = 0
-    st.session_state.calculation_result = None # Reset calculation results
+    st.session_state.calculation_result = None
+    st.session_state.chapter_info = None
 
 # Sidebar
 with st.sidebar:
     st.header("⚙️ System Management")
     if not PROCESSED_CSV.exists():
         st.warning("Processed CSV not found. Please run the pipeline first.")
+    elif st.session_state.get("pipeline_status"):
+        st.success(st.session_state.pipeline_status)
     else:
         st.success("✅ System ready")
 
+    # ✨ MODIFIED: This block is now corrected and optimized
     if st.button("🔄 Run Full Pipeline", help="Download, preprocess, and embed HTS data"):
+        st.session_state.pipeline_status = ""
+        start_time = time.time()
+        
         orchestrator = HTSOrchestrator(BASE)
         with st.spinner("Running pipeline... This may take several minutes."):
-            progress_bar = st.progress(0)
-            progress_bar.progress(33, text="Fetching latest HTS data...")
-            result = orchestrator.run_full_pipeline()
-            progress_bar.progress(66, text="Processing and embedding data...")
-            processed_path = result["processed"]
-            indexed = build_vectorstore(processed_path, overwrite=True)
-            progress_bar.progress(100, text="Complete!")
-        st.success(f"✅ Pipeline complete! Indexed {indexed} records.")
-        st.info(f"Processed file: {processed_path}")
-        time.sleep(2)
+            progress_bar = st.progress(0, text="Starting pipeline...")
+            
+            # Step 1: Fetch and process data (Fast part)
+            progress_bar.progress(10, text="Step 1/2: Fetching and preprocessing HTS data...")
+            processed_path = orchestrator.run_preprocessing_pipeline()
+            
+            # Step 2: Embed and index data (Slow part)
+            progress_bar.progress(30, text="Step 2/2: Embedding data and indexing... (This may take a moment)")
+            indexed = orchestrator.run_embedding_pipeline(processed_path)
+            
+            progress_bar.progress(100, text="✅ Pipeline complete!")
+            time.sleep(2)
+
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        
+        st.session_state.pipeline_status = f"Pipeline run successful! ({elapsed_time:.2f}s)"
+        st.success(f"✅ Pipeline finished in {elapsed_time:.2f} seconds. Indexed {indexed} records.")
         st.rerun()
 
     st.divider()
@@ -99,7 +118,7 @@ with st.sidebar:
         reset_session()
         st.rerun()
 
-# Main application logic
+# --- Main application logic remains unchanged ---
 if PROCESSED_CSV.exists():
     qa_agent = QueryAgent(str(PROCESSED_CSV))
 
@@ -116,6 +135,7 @@ if PROCESSED_CSV.exists():
             reset_session()
             st.session_state.initial_query = user_input.strip()
             clean_input = user_input.replace(".", "").strip()
+            
             if clean_input.isdigit() and len(clean_input) == 10:
                 with st.spinner("Searching exact HTS match..."):
                     results = qa_agent.query_exact_hts(user_input.strip(), k=5)
@@ -123,25 +143,29 @@ if PROCESSED_CSV.exists():
                     st.session_state.final_result = pd.Series(results[0]["payload"])
                 else:
                     st.warning("No exact matches found. Try a partial code or description.")
+            
             elif clean_input.isdigit() and len(clean_input) in [4, 6]:
                 with st.spinner("Finding candidates..."):
                     candidates = qa_agent.get_candidates_by_prefix(user_input)
                 if not candidates.empty:
                     st.session_state.candidates = candidates
+                    st.session_state.chapter_info = qa_agent.get_chapter_description(candidates)
                     st.success(f"Found {len(candidates)} candidates for prefix '{user_input}'")
                 else:
                     st.error(f"No HTS codes found starting with '{user_input}'")
+            
             else:
                 with st.spinner("Searching by product description..."):
                     candidates = qa_agent.get_candidates_by_product(user_input.strip(), k=200)
                 if not candidates.empty:
                     st.session_state.candidates = candidates
+                    st.session_state.chapter_info = qa_agent.get_chapter_description(candidates)
                     st.success(f"Found {len(candidates)} potential matches for '{user_input}'")
                 else:
                     st.error("No matching products found. Try different keywords.")
             st.rerun()
 
-    # Question-answer classification for partial/product
+    # Question-answer classification for partial/product searches
     if not st.session_state.candidates.empty and st.session_state.final_result is None:
         st.divider()
         col1, col2 = st.columns([2, 1])
@@ -150,6 +174,11 @@ if PROCESSED_CSV.exists():
             st.write(f"Initial query: **{st.session_state.initial_query}**")
         with col2:
             st.metric("Candidates Remaining", len(st.session_state.candidates))
+        
+        if st.session_state.chapter_info:
+            info = st.session_state.chapter_info
+            st.info(f"Your product appears to belong to chapter **{info['chapter_code']}**: *{info['description']}*")
+            st.divider()
 
         if len(st.session_state.candidates) == 1:
             st.session_state.final_result = st.session_state.candidates.iloc[0]
@@ -170,16 +199,18 @@ if PROCESSED_CSV.exists():
             if st.session_state.current_question:
                 question = st.session_state.current_question
                 st.subheader(question["question"])
-                option_cols = st.columns(len(question["options"]))
+                num_options = len(question["options"])
+                option_cols = st.columns(num_options) if num_options <= 5 else st.columns(5)
+                
                 selected_option = None
-                for idx, (col, option) in enumerate(zip(option_cols, question["options"])):
-                    with col:
+                for idx, option in enumerate(question["options"]):
+                    col_index = idx % len(option_cols)
+                    with option_cols[col_index]:
                         if st.button(option["label"], key=f"opt_{idx}", use_container_width=True,
                                      help=f"Expected candidates: {option['expected_count']}"):
                             selected_option = option
 
                 if selected_option:
-                    # <<< --- THIS IS THE CORRECTED LOGIC BLOCK --- >>>
                     filtered = qa_agent.filter_candidates_by_answer(
                         st.session_state.candidates, question, selected_option
                     )
@@ -190,14 +221,12 @@ if PROCESSED_CSV.exists():
                     })
                     st.session_state.current_question = None
                     st.session_state.question_count += 1
-                    # <<< --- END OF CORRECTION --- >>>
                     st.rerun()
 
-    # --- FINAL RESULT AND NEW DUTY CALCULATOR UI ---
+    # --- FINAL RESULT AND DUTY CALCULATOR UI ---
     if st.session_state.final_result is not None:
         st.divider()
         
-        # Display classification result
         st.markdown('<div class="success-box">', unsafe_allow_html=True)
         st.header("✅ Classification Complete!")
         result = st.session_state.final_result
@@ -206,8 +235,7 @@ if PROCESSED_CSV.exists():
         with col1:
             st.subheader("HTS Classification")
             st.write(f"**HTS Number:** `{details['HTS Number']}`")
-            st.write(f"**Description:** {details['Description']}")
-            st.write(f"**Specifications:** {details['Specifications']}")
+            st.write(f"**Full Description:** {details['Full Description']}")
         with col2:
             st.subheader("Duty Information")
             st.write(f"**Unit of Quantity:** {details['Unit of Quantity']}")
@@ -218,7 +246,6 @@ if PROCESSED_CSV.exists():
 
         st.divider()
 
-        # --- NEW: Duty Calculator Form ---
         st.markdown('<div class="calculator-box">', unsafe_allow_html=True)
         st.header("Step 2: Calculate Landed Cost")
         
@@ -258,7 +285,6 @@ if PROCESSED_CSV.exists():
         
         st.markdown('</div>', unsafe_allow_html=True)
 
-        # Display calculation results
         if st.session_state.calculation_result:
             st.markdown('<div class="results-box">', unsafe_allow_html=True)
             res = st.session_state.calculation_result
@@ -283,16 +309,13 @@ if PROCESSED_CSV.exists():
             if res["calculation_notes"]:
                 st.warning("Please Note:")
                 for note in res["calculation_notes"]:
-                    st.write(note)
+                    st.write(f"- {note}")
             st.markdown('</div>', unsafe_allow_html=True)
 
-        # Session management buttons
         st.divider()
-        col1, col2 = st.columns(2)
-        with col1:
-            if st.button("🔍 New Search", type="secondary"):
-                reset_session()
-                st.rerun()
+        if st.button("🔍 New Search", type="secondary"):
+            reset_session()
+            st.rerun()
 
 else:
     st.error("⚠️ No processed data found. Please run the pipeline from the sidebar first.")

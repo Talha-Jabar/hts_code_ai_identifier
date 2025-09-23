@@ -95,10 +95,10 @@ def build_vectorstore(processed_csv_path: Path, overwrite: bool = False) -> int:
 
     ensure_collection_and_indexes(vector_size)
 
-    count_info = qdrant.count(COLLECTION_NAME)
-    if count_info.count > 0 and not overwrite:
-        print(f"Collection already has {count_info.count} vectors. Skipping re-embedding.")
-        return count_info.count
+    # count_info = qdrant.count(COLLECTION_NAME)
+    # if count_info.count > 0 and not overwrite:
+    #     print(f"Collection already has {count_info.count} vectors. Skipping re-embedding.")
+    #     return count_info.count
 
     points = [
         qdrant_models.PointStruct(id=int(i), vector=vectors[i], payload=payloads[i])

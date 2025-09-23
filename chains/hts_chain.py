@@ -11,13 +11,25 @@ class HTSOrchestrator:
         self.processed_dir = base_dir / "data" / "processed"
         self.emb_dir = base_dir / "data" / "embeddings"
 
-    def run_full_pipeline(self) -> dict:
+    def run_preprocessing_pipeline(self) -> Path:
         """
-        1. fetch latest raw CSV
-        2. preprocess CSV
-        3. generate embeddings and upload to Qdrant
+        ✨ NEW ✨
+        Runs the fast part of the pipeline:
+        1. Fetches the latest raw CSV.
+        2. Preprocesses the CSV.
+        Returns the path to the processed CSV file.
         """
         raw_csv = fetch_latest(self.raw_dir)
         processed_csv = preprocess(raw_csv, self.processed_dir)
-        points_indexed = create_embeddings(processed_csv)
-        return {"raw": raw_csv, "processed": processed_csv, "points_indexed": points_indexed}
+        return processed_csv
+
+    def run_embedding_pipeline(self, processed_csv_path: Path) -> int:
+        """
+        ✨ NEW ✨
+        Runs the slow part of the pipeline:
+        1. Generates embeddings from the processed CSV.
+        2. Uploads embeddings to the vector store (Qdrant).
+        Returns the number of points indexed.
+        """
+        points_indexed = create_embeddings(processed_csv_path, overwrite=True)
+        return points_indexed

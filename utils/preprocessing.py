@@ -43,6 +43,8 @@ def flatten_hts_with_indent(input_path: Path, output_path: Path, max_levels: int
             # clear deeper levels
             for i in range(indent+1, max_levels+1):
                 current_levels[i] = ""
+                # ✨ FIX: Clear duty rates for deeper levels as well
+                duty_per_level[i] = {"General":"", "Special":"", "Column2":"", "Unit":""}
 
         # Duty + unit values from this row
         gen = str(row.get("General Rate of Duty", "")).strip()
