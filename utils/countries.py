@@ -1,7 +1,5 @@
 # utils/countries.py
 
-# utils/countries.py
-
 SPECIAL_RATE_COUNTRIES = {
     "MX", "IL", "JO", "KR", "CL", "SG", "AU", "BH",
     "MA", "OM", "PA", "PE", "CA", "CO", "CR", "DO"
