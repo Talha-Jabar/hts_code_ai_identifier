@@ -1,0 +1,3210 @@
+{
+  "Country_Specific_Tariffs": {
+    "Updated": "October 28, 2025 at 8:50 AM ET",
+    "Litigation_Update": [
+      {
+        "Date": "Sept. 9, 2025",
+        "Content": "On August 29, the Court of Appeals for the Federal Circuit (1) affirmed the Court of International Trade’s (CIT) holding that “fentanyl” and reciprocal tariffs exceed the President’s authority under the International Emergency Economic Powers Act; (2) affirmed the CIT’s grant of declaratory relief that the “fentanyl” and reciprocal tariff executive orders are “invalid as contrary to law; and (3) vacated the CIT’s permanent injunction that universally enjoined the tariffs’ enforcement, remanding for the CIT to further evaluate the propriety and scope of injunctive relief in light of the Supreme Court’s decision in Trump v. CASA, Inc., 145 S. Ct. 2540 (2025). The Federal Circuit stayed its ruling pending further appeal by the government. The Supreme Court will hear oral argument in the pending appeal on November 5."
+      }
+    ],
+    "Tariffs": {
+      "All": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "April 5, 2025",
+            "Amended_Date": "June 16, 2025"
+          },
+          "Ad_Valorem_Rate": "10% baseline",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below",
+              "Baseline may be replaced by country-specific rate below",
+              "De minimis exemption suspended (effective Aug. 29, 2025): With the exception of shipments sent through the international postal network, which are subject special duty rates, shipments that would have otherwise qualified for the de minimis exemption are subject to all applicable duties and tariffs.",
+              "Threatened reciprocal tariff rate increase (July 10, 2025): President Trump announced that he intends to increase the baseline reciprocal tariff rate to 15-20%. No legal documentation implementing this change has been released yet.",
+              "For trading partners with a country-specific rate below: Under the current language of the executive order, it appears the country-specific rate was in effect on April 9. Further guidance on this point may be forthcoming."
+            ],
+            "References": [
+              {
+                "Title": "Exec. Order 14346",
+                "Date": "Sept. 5, 2025"
+              },
+              {
+                "Title": "Exec. Order 14326",
+                "Date": "July 31, 2025"
+              },
+              {
+                "Title": "Exec. Order 14324",
+                "Date": "July 30, 2025"
+              },
+              {
+                "Title": "Exec. Order 14316",
+                "Date": "July 7, 2025"
+              },
+              {
+                "Title": "Exec. Order 14298",
+                "Date": "May 12, 2025"
+              },
+              {
+                "Title": "Exec. Order 14266",
+                "Date": "Apr. 9, 2025"
+              },
+              {
+                "Title": "Exec. Order 14257",
+                "Date": "Apr. 2, 2025"
+              },
+              {
+                "Title": "Reciprocal Trade and Tariffs Memorandum",
+                "Date": "Feb. 13, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Transshipment penalty",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "40%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "In lieu of the baseline or country-specific rate",
+              "In addition to the 40% tariff, transshipped goods may be subject to penalties. CBP may not mitigate or remit penalties assessed on imports that were transshipped to evade applicable duties and tariffs."
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Additional (DSTs)",
+            "Status": "Threatened",
+            "Date": "Aug. 25, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Exemptions_Notes": {
+            "Notes": [
+              "All products from any country that imposes a digital services tax (DST)"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Secondary (Russian-origin goods)",
+            "Status": "Threatened to start Sept. 2",
+            "Date": "July 14, 2025"
+          },
+          "Ad_Valorem_Rate": "100%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "All products from any country that purchases Russian-origin goods"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Secondary (Venezuelan oil)",
+            "Status": "Threatened",
+            "Date": "Mar. 24, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "May apply to products from any country that imports Venezuelan oil"
+            ],
+            "References": [
+              {
+                "Title": "Exec. Order 14245",
+                "Date": "Mar. 24, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Secondary (Russian oil)",
+            "Status": "Threatened",
+            "Date": "Mar. 30, 2025"
+          },
+          "Ad_Valorem_Rate": "25-50%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "May apply to products from any country that imports Russian oil"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Secondary (Iranian oil)",
+            "Status": "Threatened",
+            "Date": "Mar. 30, 2025"
+          },
+          "Ad_Valorem_Rate": "25-50%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "May apply to products from any country that imports Iranian oil"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Afghanistan": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Algeria": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "30%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Angola": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Austria": [
+        {
+          "Type_Status": {
+            "Type": "Additional (DSTs)",
+            "Status": "Threatened",
+            "Date": "Feb. 21, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Exemptions_Notes": {
+            "Notes": [
+              "USTR may renew its Section 301 investigation to address digital services taxes (DSTs)"
+            ],
+            "References": [
+              {
+                "Title": "Defending American Corporations and Innovators from Overseas Extortion Memo",
+                "Date": "Feb. 21, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Bangladesh": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "20%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Belarus": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Exempt",
+            "Effective_Date": "Apr. 5, 2025"
+          },
+          "Ad_Valorem_Rate": "",
+          "Exemptions_Notes": {},
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Bolivia": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Bosnia and Herzegovina": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "30%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Botswana": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Brazil": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "10%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Free speech",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 6, 2025"
+          },
+          "Ad_Valorem_Rate": "40%",
+          "Exemptions_Notes": {
+            "Exemptions": [
+              "(a) products classified in the 8-digit HTSUS subheadings listed in Annex I to Exec. Order 14323",
+              "(b) products subject to Section 232 tariffs"
+            ],
+            "Savings_clause": "Goods (1) loaded onto a vessel at the port of loading and in transit on the final mode of transit prior to entry into the United States before 12:01 a.m. (ET) on August 6 and (2) entered for consumption, or withdrawn from warehouse for consumption, before 12:01 a.m. (ET) on October 5 will not be subject to the additional tariffs.",
+            "Stacking": "These tariffs are in addition to the 10% baseline reciprocal tariff but do not stack on top of any applicable Section 232 tariffs.",
+            "References": [
+              {
+                "Title": "Exec. Order 14323",
+                "Date": "July 30, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": {
+            "Status": "Threatened",
+            "Content": "50% on U.S.-origin goods",
+            "Date": "July 10, 2025"
+          }
+        }
+      ],
+      "BRICS": [
+        {
+          "Type_Status": {
+            "Type": "Additional",
+            "Status": "Threatened",
+            "Date": "July 7, 2025"
+          },
+          "Ad_Valorem_Rate": "10%",
+          "Exemptions_Notes": {},
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Brunei": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Cambodia": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "19%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ],
+            "Exemptions": "products listed by HTSUS classification that satisfy the scope limitations in Annex I, Schedule 2 of the reciprocal trade agreement between the United States and Cambodia (announced Oct. 26, 2025)"
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Cameroon": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Canada": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Exempt",
+            "Effective_Date": "Apr. 5, 2025"
+          },
+          "Ad_Valorem_Rate": "",
+          "Exemptions_Notes": {},
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Fentanyl",
+            "Status": "Implemented",
+            "Effective_Date": "Mar. 4, 2025",
+            "Adjusted_Date": "Mar. 6, 2025 and Aug. 1, 2025"
+          },
+          "Ad_Valorem_Rate": {
+            "Rates": [
+              {
+                "Rate": "0%",
+                "Scope": "for goods entered duty-free under the United States-Mexico-Canada Agreement (USMCA)"
+              },
+              {
+                "Rate": "10%",
+                "Scope": "for energy, energy resources, and potash"
+              },
+              {
+                "Rate": "35%",
+                "Scope": "for all other products"
+              }
+            ]
+          },
+          "Exemptions_Notes": {
+            "Threatened_rate_increase": {
+              "Date": "Oct. 25, 2025",
+              "Content": "President Trump threatened to increase Canada's 'fentanyl' tariff rate by an additional 10%."
+            }
+          },
+          "Announced_Countermeasures": {
+            "Repealed": "Fentanyl and steel and aluminum surtaxes, as well as the surtax on CAD $30 billion in goods imported from the United States (effective Sept. 1, 2025)",
+            "Implemented": "25% automobile surtax",
+            "Withdrawn": "Ontario's 25% surcharged on energy exports (Mar. 11, 2025)",
+            "Canada_surtaxes": "Canada published an updated list of U.S.-origin products that remain subject to Canadian surtaxes (effective Sept. 1, 2025)",
+            "Section_301_investigation": "USTR may initiate Section 301 investigation to address DSTs",
+            "References": [
+              {
+                "Title": "Exec. Order 14325",
+                "Date": "July 31, 2025"
+              },
+              {
+                "Title": "Exec. Order 14289",
+                "Date": "Apr. 29, 2025"
+              },
+              {
+                "Title": "Exec. Order 14231",
+                "Date": "Mar. 6, 2025"
+              },
+              {
+                "Title": "Defending American Corporations and Innovators from Overseas Extortion Memo",
+                "Date": "Feb. 21, 2025"
+              },
+              {
+                "Title": "Exec. Order 14197",
+                "Date": "Feb. 3, 2025"
+              },
+              {
+                "Title": "Exec. Order 14193",
+                "Date": "Feb. 1, 2025"
+              }
+            ]
+          }
+        },
+        {
+          "Type_Status": {
+            "Type": "Transshipment penalty",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 1, 2025"
+          },
+          "Ad_Valorem_Rate": "40%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "In lieu of the applicable 'fentanyl' tariff",
+              "In addition to the 40% tariff, transshipped goods may be subject to penalties. CBP may not mitigate or remit penalties assessed on imports that were transshipped to evade applicable duties and tariffs."
+            ],
+            "References": [
+              {
+                "Title": "Exec. Order 14325",
+                "Date": "July 31, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Additional",
+            "Status": "Threatened",
+            "Date": "June 27, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Exemptions_Notes": {},
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Additional (dairy and lumber)",
+            "Status": "Threatened",
+            "Date": "Mar. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "250%",
+          "Exemptions_Notes": {},
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Chad": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "China": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Delayed until Nov. 10",
+            "Effective_Date": "Aug. 11, 2025"
+          },
+          "Ad_Valorem_Rate": "34%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "Goods from China (including Hong Kong and Macau) are currently subject to the 10% baseline reciprocal tariff."
+            ],
+            "References": [
+              {
+                "Title": "Exec. Order 14334",
+                "Date": "Aug. 11, 2025"
+              },
+              {
+                "Title": "Exec. Order 14298",
+                "Date": "May 12, 2025"
+              },
+              {
+                "Title": "Exec. Order 14266",
+                "Date": "Apr. 9, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": {
+            "Status": "Implemented",
+            "Content": "10-15% tariffs on certain U.S.-origin goods"
+          }
+        },
+        {
+          "Type_Status": {
+            "Type": "Fentanyl",
+            "Status": "Implemented",
+            "Effective_Date": "Feb. 4, 2025",
+            "Modified_Date": "Mar. 4, 2025"
+          },
+          "Ad_Valorem_Rate": "20%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "Duty-free de minimis exemption revoked (effective May 2, 2025)"
+            ],
+            "References": [
+              {
+                "Title": "Exec. Order 14256",
+                "Date": "Apr. 2, 2025"
+              },
+              {
+                "Title": "Exec. Order 14228",
+                "Date": "Mar. 3, 2025"
+              },
+              {
+                "Title": "Exec. Order 14195",
+                "Date": "Feb. 1, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": {
+            "Implemented": [
+              "Imports of U.S.-origin logs suspended (effective Mar. 4, 2025)",
+              "Expanded Critical minerals and rare earth export controls (effective Feb. 4, 2025; modified Apr. 4, 2025; modified Oct. 10, 2025)"
+            ],
+            "China_countermeasures": [
+              "(a) 15% tariff on U.S.-origin chicken, cotton, corn, and wheat (effective Mar. 10, 2025)",
+              "(b) 15% tariff on supercooled natural gas and coal from the U.S. (effective Feb. 10, 2025)",
+              "(c) 10% tariffs on U.S.-origin aquatic products, beef, dairy products, fruit, pork, sorghum, soybeans, and vegetables (effective Mar. 10, 2025)",
+              "(d) 10% tariff on U.S.-origin crude oil",
+              "(e) Export controls on tungsten, tellurium, bismuth, molybdenum, and indium products (effective Feb. 4, 2025)",
+              "(f) Export controls on seven categories of medium and heavy rare earth-related items, including samarium, gadolinium, zirconium, dysprosium, lutetium, scandium, and yttrium (effective Apr. 4, 2025; suspended)",
+              "(g) Export controls on certain foreign-produced items that incorporate Chinese rare earth materials (effective Oct. 10, 2025 with further controls effective Dec. 1, 2025)"
+            ]
+          }
+        },
+        {
+          "Type_Status": {
+            "Type": "Additional (rare earth export control countermeasure)",
+            "Status": "Threatened to start Nov. 1",
+            "Date": "Oct. 10, 2025"
+          },
+          "Ad_Valorem_Rate": "100%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "These tariffs will be in addition to any other tariffs on Chinese-origin goods that are already in effect."
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Secondary (Russian oil)",
+            "Status": "Threatened",
+            "Date": "Sept. 13, 2025"
+          },
+          "Ad_Valorem_Rate": "50-100%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "On September 13, President Trump posted a letter to all NATO countries on Truth Social suggesting that the alliance place a 50-100% tariff on China until the war in Ukraine ends."
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Additional",
+            "Status": "Threatened",
+            "Date": "Aug. 25, 2025"
+          },
+          "Ad_Valorem_Rate": "200%",
+          "Exemptions_Notes": {},
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Maritime and cargo handling equipment",
+            "Status": "Threatened",
+            "Date": "Apr. 9, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See Worldwide, product-specific tariffs table below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Secondary (Venezuelan oil)",
+            "Status": "Threatened",
+            "Date": "Mar. 24, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "Known purchaser of Venezuelan oil"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Costa Rica": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Côte d'Ivoire": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Cuba": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Exempt",
+            "Effective_Date": "Apr. 5, 2025"
+          },
+          "Ad_Valorem_Rate": "",
+          "Exemptions_Notes": {},
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Democratic Republic of Congo": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Dominican Republic": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Equatorial Guinea": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "European Union": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": {
+            "Rates": [
+              {
+                "Rate": "0%",
+                "Scope": "for all products with a Column 1 Duty Rate ≥ 15%"
+              },
+              {
+                "Rate": "15% minus Column 1 Duty Rate",
+                "Scope": "for all products with a Column 1 Duty Rate < 15%"
+              }
+            ]
+          },
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ],
+            "Exemptions": [
+              "products listed by HTSUS classification that satisfy the scope limitations in U.S. Note 2(v)(xvi)-(xix), Subchapter III, Chapter 99, HTSUS (effective Sept. 1, 2025)",
+              "U.S. Note 2(v)(xviii) only applies to products of the EU that are (a) civil aircraft (all aircraft other than military aircraft and unmanned aircraft); their engines, parts, and components; their other parts, components, and subassemblies; and ground flight simulators and their parts and components and (b) otherwise meet the requirements of the WTO Agreement on Trade in Civil Aircraft.",
+              "U.S. Note 2(v)(xix) only applies to products of the EU that are not patented in the United States for use in pharmaceutical applications."
+            ],
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 43136",
+                "Date": "Sept. 25, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": {
+            "Suspended": "effective Aug. 5, 2025",
+            "Threatened": "New steel safeguards (Oct. 7, 2025)",
+            "EU_countermeasures_suspended": [
+              "(a) 4.4-25% tariffs on U.S.-origin goods in Annexes I-IV to Implementing Regulation (EU) 2025/1564",
+              "(b) 7.5-30% tariffs on U.S.-origin goods in Annexes VI-XI to Implementing Regulation (EU) 2025/1564 and the direct or indirect export of goods classified in headings 7204 (ferrous waste and scrap; remelting scrap ingots of iron or steel) or 7602 (aluminum waste and scrap) to the United States",
+              "(c) 25% tariffs on U.S.-origin goods in Annex V to Implementing Regulation (EU) 2025/1564",
+              "(d) 10-30% tariffs on U.S.-origin goods in Annexes XII-XIII to Implementing Regulation (EU) 2025/1564"
+            ],
+            "EU_countermeasures_proposed": "A tariff-rate quota regime where specified volumes of in-scope steel can enter the EU duty free, but any imports beyond those quotas would be subject to a 50% tariff. The new regime would replace the current safeguards that are set to expire in mid-2026."
+          }
+        },
+        {
+          "Type_Status": {
+            "Type": "Additional",
+            "Status": "Threatened",
+            "Date": "May 23, 2025"
+          },
+          "Ad_Valorem_Rate": "50%",
+          "Exemptions_Notes": {},
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Additional (alcohol products)",
+            "Status": "Threatened",
+            "Date": "Mar. 13, 2025"
+          },
+          "Ad_Valorem_Rate": "200%",
+          "Exemptions_Notes": {},
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Additional (DSTs)",
+            "Status": "Threatened",
+            "Date": "Feb. 21, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Exemptions_Notes": {
+            "Notes": [
+              "USTR may renew its Section 301 investigation to address digital services taxes (DSTs)"
+            ],
+            "References": [
+              {
+                "Title": "Defending American Corporations and Innovators from Overseas Extortion Memo",
+                "Date": "Feb. 21, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Falkland Islands": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "10%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Fiji": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "10%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "France": [
+        {
+          "Type_Status": {
+            "Type": "Additional (DSTs)",
+            "Status": "Threatened",
+            "Date": "Feb. 21, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Exemptions_Notes": {
+            "Notes": [
+              "USTR may renew Section 301 investigation to address DSTs"
+            ],
+            "References": [
+              {
+                "Title": "Defending American Corporations and Innovators from Overseas Extortion Memo",
+                "Date": "Feb. 21, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Ghana": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Guyana": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Iceland": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "India": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Secondary (Russian oil)",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 27, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Exemptions": [
+              "(a) products listed in Annex II (as amended) to Exec. Order 14257",
+              "(b) products subject to Section 232 tariffs"
+            ],
+            "Savings_clause": "Goods (1) loaded onto a vessel at the port of loading and in transit on the final mode of transit prior to entry into the United States before 12:01 a.m. (ET) on August 27 and (2) entered for consumption, or withdrawn from warehouse for consumption, before 12:01 a.m. (ET) on September 17 will not be subject to the additional tariffs.",
+            "Stacking": "The secondary tariffs are in addition to India's 25% country-specific reciprocal tariff but do not stack on top of any applicable Section 232 tariffs.",
+            "References": [
+              {
+                "Title": "Proclamation",
+                "Date": "Sept. 29, 2025"
+              },
+              {
+                "Title": "Exec. Order 14329",
+                "Date": "Aug. 6, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Secondary (Venezuelan oil)",
+            "Status": "Threatened",
+            "Date": "Mar. 24, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "Known purchaser of Venezuelan oil"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Indonesia": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "19%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ],
+            "References": [
+              {
+                "Title": "Joint Statement on Framework for United States-Indonesia Agreement on Reciprocal Trade",
+                "Date": "July 22, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Iraq": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "35%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Israel": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Italy": [
+        {
+          "Type_Status": {
+            "Type": "Additional (DSTs)",
+            "Status": "Threatened",
+            "Date": "Feb. 21, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Exemptions_Notes": {
+            "Notes": [
+              "USTR may renew its Section 301 investigation to address digital services taxes (DSTs)"
+            ],
+            "References": [
+              {
+                "Title": "Defending American Corporations and Innovators from Overseas Extortion Memo",
+                "Date": "Feb. 21, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Japan": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025",
+            "Modified_Date": "Sept. 4, 2025"
+          },
+          "Ad_Valorem_Rate": {
+            "Rates": [
+              {
+                "Rate": "0%",
+                "Scope": "for all products with a Column 1 Duty Rate ≥ 15%"
+              },
+              {
+                "Rate": "15% minus Column 1 Duty Rate",
+                "Scope": "for all products with a Column 1 Duty Rate < 15%"
+              }
+            ]
+          },
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below",
+              "Modified reciprocal tariff rate: retroactive to August 7"
+            ],
+            "Exemptions": [
+              "(a) Aerospace exemption for products that fall under the WTO Agreement on Trade in Civil Aircraft (except unmanned aircraft)",
+              "(b) Secretary of Commerce authorized to exempt additional products"
+            ],
+            "Aerospace_exemption": "The exemption will be effective as of the date the Secretary of Commerce publishes notice in the Federal Register.",
+            "Additional_exemptions": "The Secretary of Commerce is authorized to modify the reciprocal tariff rate to 0% for products of Japan that are natural resources unavailable (or unavailable at sufficient scale to satisfy domestic demand) in the United States, generic pharmaceuticals, generic pharmaceutical ingredients, and general pharmaceutical chemical precursors.",
+            "References": [
+              {
+                "Title": "90 Feg. Reg. 44639",
+                "Date": "Sept. 16, 2025"
+              },
+              {
+                "Title": "Exec. Order 14345",
+                "Date": "Sept. 4, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Jordan": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Kazakhstan": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Laos": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "40%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Lesotho": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Libya": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "30%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Liechtenstein": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Madagascar": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Malawi": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Malaysia": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "19%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Secondary (Venezuelan oil)",
+            "Status": "Threatened",
+            "Date": "Mar. 24, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "Known purchaser of Venezuelan oil"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Mauritius": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Mexico": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Exempt",
+            "Effective_Date": "Apr. 5, 2025"
+          },
+          "Ad_Valorem_Rate": "",
+          "Exemptions_Notes": {},
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Fentanyl",
+            "Status": "Implemented",
+            "Effective_Date": "Mar. 4, 2025",
+            "Adjusted_Date": "Mar. 6, 2025"
+          },
+          "Ad_Valorem_Rate": {
+            "Rates": [
+              {
+                "Rate": "0%",
+                "Scope": "for goods entered duty-free under the USMCA"
+              },
+              {
+                "Rate": "10%",
+                "Scope": "for potash"
+              },
+              {
+                "Rate": "25%",
+                "Scope": "for all other products"
+              }
+            ]
+          },
+          "Exemptions_Notes": {
+            "Threatened": "Rate increase from 25% to 30% (July 12, 2025)",
+            "References": [
+              {
+                "Title": "Exec. Order 14289",
+                "Date": "Apr. 29, 2025"
+              },
+              {
+                "Title": "Exec. Order 14232",
+                "Date": "Mar. 6, 2025"
+              },
+              {
+                "Title": "Exec. Order 14198",
+                "Date": "Feb. 3, 2025"
+              },
+              {
+                "Title": "Exec. Order 14194",
+                "Date": "Feb. 1, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Moldova": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Mozambique": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Myanmar (Burma)": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "40%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Namibia": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Nauru": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Nicaragua": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "18%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Section 301",
+            "Status": "Threatened",
+            "Date": "Oct. 20, 2025"
+          },
+          "Ad_Valorem_Rate": "100%",
+          "Exemptions_Notes": {
+            "Comment_Window": "Oct. 20 - Nov. 19, 2025",
+            "Notes": [
+              "The USTR determined that Nicaragua's acts, policies, and practices related to labor rights, human rights and fundamental freedoms, and the rule of law are unreasonable and burden or restrict U.S. commerce, and are therefore actionable under Section 301 of the Trade Act of 1974.",
+              "As a result, the USTR is proposing the following actions: (a) Suspending the application of all or some Dominican Republic-Central America-United States Free Trade Agreement (CAFTA-DR) benefits to Nicaragua, immediately or phased in over a period of up to 12 months; and (b) Imposing a tariff of up to 100% on all or some Nicaraguan-origin imports, immediately or phased in over a period of up to 12 months."
+            ],
+            "References": [
+              {
+                "Title": "Fed. Reg. Doc. 2025-19635",
+                "Date": "scheduled to be published Oct. 23, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Nigeria": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "North Korea": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Exempt",
+            "Effective_Date": "Apr. 5, 2025"
+          },
+          "Ad_Valorem_Rate": "",
+          "Exemptions_Notes": {},
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "North Macedonia": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Norway": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Pakistan": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "19%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Philippines": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "19%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Russia": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Exempt",
+            "Effective_Date": "Apr. 5, 2025"
+          },
+          "Ad_Valorem_Rate": "",
+          "Exemptions_Notes": {},
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Secondary (Venezuelan oil)",
+            "Status": "Threatened",
+            "Date": "Mar. 24, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "Known purchaser of Venezuelan oil"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Serbia": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "35%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "South Africa": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "30%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "South Korea": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Singapore": [
+        {
+          "Type_Status": {
+            "Type": "Secondary (Venezuelan oil)",
+            "Status": "Threatened",
+            "Date": "Mar. 24, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "Known purchaser of Venezuelan oil"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Spain": [
+        {
+          "Type_Status": {
+            "Type": "Secondary (Venezuelan oil)",
+            "Status": "Threatened",
+            "Date": "Mar. 24, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "Known purchaser of Venezuelan oil"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Additional (DSTs)",
+            "Status": "Threatened",
+            "Date": "Feb. 21, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Exemptions_Notes": {
+            "Notes": [
+              "USTR may renew its Section 301 investigation to address digital services taxes (DSTs)"
+            ],
+            "References": [
+              {
+                "Title": "Defending American Corporations and Innovators from Overseas Extortion Memo",
+                "Date": "Feb. 21, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Sri Lanka": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "20%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Switzerland": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "39%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Syria": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "41%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Taiwan": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "20%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Thailand": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "19%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Trinidad and Tobago": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Tunisia": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Turkey": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Additional (DSTs)",
+            "Status": "Threatened",
+            "Date": "Feb. 21, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Exemptions_Notes": {
+            "Notes": [
+              "USTR may renew its Section 301 investigation to address digital services taxes (DSTs)"
+            ],
+            "References": [
+              {
+                "Title": "Defending American Corporations and Innovators from Overseas Extortion Memo",
+                "Date": "Feb. 21, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Uganda": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "United Kingdom": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "10%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ],
+            "Aerospace_exemption": {
+              "Content": "products that fall under the WTO Agreement on Trade in Civil Aircraft",
+              "Effective_Date": "June 23, 2025"
+            },
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 27851",
+                "Date": "June 30, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Additional (DSTs)",
+            "Status": "Threatened",
+            "Date": "Feb. 21, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Exemptions_Notes": {
+            "Notes": [
+              "USTR may renew its Section 301 investigation to address digital services taxes (DSTs)"
+            ],
+            "References": [
+              {
+                "Title": "Defending American Corporations and Innovators from Overseas Extortion Memo",
+                "Date": "Feb. 21, 2025"
+              }
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Vanuatu": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Venezuela": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Vietnam": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "20%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        },
+        {
+          "Type_Status": {
+            "Type": "Secondary (Venezuelan oil)",
+            "Status": "Threatened",
+            "Date": "Mar. 24, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "Known purchaser of Venezuelan oil"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Zambia": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ],
+      "Zimbabwe": [
+        {
+          "Type_Status": {
+            "Type": "Reciprocal",
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 7, 2025"
+          },
+          "Ad_Valorem_Rate": "15%",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See exemptions below"
+            ]
+          },
+          "Announced_Countermeasures": ""
+        }
+      ]
+    }
+  },
+  "Product_Specific_Tariffs": {
+    "Updated": "October 18, 2025 at 10:30 AM ET",
+    "Tariffs": {
+      "Agricultural products": [
+        {
+          "Status": {
+            "Status": "Threatened",
+            "Date": "Mar. 3, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Scope": "TBD",
+          "Exemptions_Notes": {}
+        }
+      ],
+      "Aluminum articles and derivative products": [
+        {
+          "Status": {
+            "Status": "Implemented",
+            "Effective_Date": "Mar. 12, 2025",
+            "Increased_Date": "June 4, 2025",
+            "Amended_Date": "June 16, 2025"
+          },
+          "Ad_Valorem_Rate": {
+            "UK-origin_products": "25%",
+            "Russian-origin_products": "200%",
+            "All_other_countries": "50%"
+          },
+          "Scope": {
+            "Note": "See Note 19, Subchapter III, Chapter 99, HTSUS",
+            "Application": "Applies by HTSUS classification",
+            "Expansion": "Includes additional derivative products (effective Aug. 18, 2025)"
+          },
+          "Exemptions_Notes": {
+            "Stacking_Note": "See stacking explanation below",
+            "Calculation": "(a) Aluminum tariff applies to the known value of the aluminum content (b) Remaining value is subject to the applicable reciprocal tariff (or 'fentanyl' tariff for Canadian- and Mexican-origin goods)",
+            "Exemptions": [
+              {
+                "Type": "UK aerospace exemption",
+                "Effective_Date": "June 23, 2025"
+              },
+              {
+                "Type": "EU aerospace exemption",
+                "Effective_Date": "Sept. 1, 2025"
+              },
+              {
+                "Type": "Japan aerospace exemption",
+                "Effective_Date": "Sept. 16, 2025"
+              }
+            ],
+            "UK_aerospace_exemption_details": "applies to products that fall under the WTO Agreement on Trade in Civil Aircraft. On or after July 9, 2025, the Secretary of Commerce may adjust the tariff rate for UK-origin products or implement import quotas, consistent with the U.S.-UK Economic Prosperity Deal announced on May 8, 2025.",
+            "EU_aerospace_exemption_details": "applicable products listed by HTSUS classification that satisfy the scope limitations in U.S. Note 2(v)(xviii), Subchapter III, Chapter 99, HTSUS",
+            "Japan_aerospace_exemption_details": "applies to products that fall under the WTO Agreement on Trade in Civil Aircraft (except unmanned aircraft)",
+            "Stacking_Mar4_Jun4_2025": "goods that are also subject to (a) the Section 232 tariffs on automobiles or automobile parts or (b) the tariffs on Canadian- and Mexican-origin goods are not subject to Section 232 tariffs on aluminum and derivative products. All country exclusions from the existing Section 232 tariffs on aluminum and derivative aluminum articles are revoked. Individual exclusions and General Authorized Exclusions are also being revoked.",
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 43136",
+                "Date": "Sept. 25, 2025"
+              },
+              {
+                "Title": "Exec. Order 14345",
+                "Date": "Sept. 4, 2025"
+              },
+              {
+                "Title": "Exec. Order 14309",
+                "Date": "June 16, 2025"
+              },
+              {
+                "Title": "Proclamation 10947",
+                "Date": "June 3, 2025"
+              },
+              {
+                "Title": "Exec. Order 14289",
+                "Date": "Apr. 29, 2025"
+              },
+              {
+                "Title": "Proclamation 10895",
+                "Date": "Feb. 10, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Automobiles": [
+        {
+          "Status": {
+            "Status": "Implemented",
+            "Effective_Date": "Apr. 3, 2025",
+            "Amended_Date": "June 16, 2025"
+          },
+          "Ad_Valorem_Rate": {
+            "Base_Rate": "25%",
+            "Modified_rate_EU_Japan": {
+              "Description": "Modified rate for products of EU Member States or Japan",
+              "Effective_Dates": "EU rate effective Aug. 1, 2025; Japan rate effective Sept. 16, 2025",
+              "Rates": [
+                {
+                  "Rate": "0%",
+                  "Scope": "for all products with a Column 1 Duty Rate ≥ 15%"
+                },
+                {
+                  "Rate": "15% minus Column 1 Duty Rate",
+                  "Scope": "for all products with a Column 1 Duty Rate < 15%"
+                }
+              ]
+            }
+          },
+          "Scope": {
+            "Note": "See Note 33(a)-(e), Subchapter III, Chapter 99, HTSUS",
+            "Application": "Applies by HTSUS classification"
+          },
+          "Exemptions_Notes": {
+            "Stacking_Note": "See stacking explanation below",
+            "Calculation": "If the product qualifies for preferential treatment under the USMCA, the tariff applies to the non-U.S. content.",
+            "UK_aerospace_exemption": {
+              "Content": "products that fall under the WTO Agreement on Trade in Civil Aircraft",
+              "Effective_Date": "June 23, 2025"
+            },
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 43136",
+                "Date": "Sept. 25, 2025"
+              },
+              {
+                "Title": "Exec. Order 14345",
+                "Date": "Sept. 4, 2025"
+              },
+              {
+                "Title": "Exec. Order 14309",
+                "Date": "June 16, 2025"
+              },
+              {
+                "Title": "Exec. Order 14289",
+                "Date": "Apr. 29, 2025"
+              },
+              {
+                "Title": "Proclamation 10908",
+                "Date": "Mar. 26, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Automobile parts": [
+        {
+          "Status": {
+            "Status": "Implemented",
+            "Effective_Date": "May 3, 2025",
+            "Amended_Date": "June 16, 2025"
+          },
+          "Ad_Valorem_Rate": {
+            "UK-origin_for_UK-origin_automobiles": "10% (including any most-favored nation duties)",
+            "All_other_countries": "25%",
+            "Modified_rate_EU_Japan": {
+              "Description": "Modified rate for products of EU Member States or Japan",
+              "Effective_Dates": "EU rate effective Aug. 1, 2025; Japan rate effective Sept. 16, 2025",
+              "Rates": [
+                {
+                  "Rate": "0%",
+                  "Scope": "for all products with a Column 1 Duty Rate ≥ 15%"
+                },
+                {
+                  "Rate": "15% minus Column 1 Duty Rate",
+                  "Scope": "for all products with a Column 1 Duty Rate < 15%"
+                }
+              ]
+            }
+          },
+          "Scope": {
+            "Note": "See Note 33(g)-(h), Subchapter III, Chapter 99, HTSUS",
+            "Application": "Applies by HTSUS classification"
+          },
+          "Exemptions_Notes": {
+            "Stacking_Note": "See stacking explanation below",
+            "Exemptions": "USMCA (effective Mar. 26, 2025)",
+            "Potential_reductions": [
+              "(a) Domestic vehicle manufacturer's import adjustment",
+              "(b) Domestic engine manufacturer's import adjustment"
+            ],
+            "Potential_reductions_details": [
+              "(a) Automobile manufacturers can apply for an import adjustment offset equal to 3.75% of the aggregate MSRP value of all automobiles they assemble in the United States from April 5, 2025 through April 30, 2030. The import adjustment will be applied to parts accounting for 15% of an automobile's value. To be included in the import adjustment calculation, vehicles must undergo final assembly in the United States.",
+              "(b) Commerce will establish a similar import adjustment for engine manufacturers. The offset accrual will be based on the aggregate value of automobile engines they assemble in the United States"
+            ],
+            "Drawback_eligibility": "manufacturing drawback only (effective Oct. 17, 2025)",
+            "References": [
+              {
+                "Title": "Proclamation",
+                "Date": "Oct. 17, 2025"
+              },
+              {
+                "Title": "90 Fed. Reg. 43136",
+                "Date": "Sept. 25, 2025"
+              },
+              {
+                "Title": "Exec. Order 14345",
+                "Date": "Sept. 4, 2025"
+              },
+              {
+                "Title": "Exec. Order 14309",
+                "Date": "June 16, 2025"
+              },
+              {
+                "Title": "Exec. Order 14289",
+                "Date": "Apr. 29, 2025"
+              },
+              {
+                "Title": "Proclamation 10908",
+                "Date": "Mar. 26, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Commercial aircraft and jet engines": [
+        {
+          "Status": {
+            "Status": "Threatened",
+            "Date": "May 13, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Scope": "TBD",
+          "Exemptions_Notes": {
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 20273",
+                "Date": "May 13, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Copper": [
+        {
+          "Status": {
+            "Status": "Implemented",
+            "Effective_Date": "Aug. 1, 2025"
+          },
+          "Ad_Valorem_Rate": "50%",
+          "Scope": {
+            "Note": "See Note 36, Subchapter III, Chapter 99, HTSUS",
+            "Application": "Applies to semi-finished copper products and intensive copper derivative products by HTSUS classification"
+          },
+          "Exemptions_Notes": {
+            "Stacking_Note": "See stacking explanation below",
+            "Calculation": "(a) Copper tariff applies to the known value of the copper content (b) Remaining value is subject to the applicable reciprocal tariff (or 'fentanyl' tariff for Canadian- and Mexican-origin goods)",
+            "Exemptions": [
+              {
+                "Type": "EU aerospace exemption",
+                "Effective_Date": "Sept. 1, 2025"
+              },
+              {
+                "Type": "Japan aerospace exemption",
+                "Effective_Date": "Sept. 16, 2025"
+              }
+            ],
+            "EU_aerospace_exemption_details": "applicable products listed by HTSUS classification that satisfy the scope limitations in U.S. Note 2(v)(xviii), Subchapter III, Chapter 99, HTSUS",
+            "Japan_aerospace_exemption_details": "applies to products that fall under the WTO Agreement on Trade in Civil Aircraft (except unmanned aircraft)",
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 43136",
+                "Date": "Sept. 25, 2025"
+              },
+              {
+                "Title": "Exec. Order 14345",
+                "Date": "Sept. 4, 2025"
+              },
+              {
+                "Title": "Proclamation 10962",
+                "Date": "July 30, 2025"
+              },
+              {
+                "Title": "Exec. Order 14220",
+                "Date": "Feb. 25, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Integrated circuits": [
+        {
+          "Status": {
+            "Status": "Threatened",
+            "Date": "Aug. 6, 2025"
+          },
+          "Ad_Valorem_Rate": "100%",
+          "Scope": "TBD",
+          "Exemptions_Notes": {
+            "Notes": [
+              "See semiconductors, semiconductor equipment, and derivative products below",
+              "On April 1, Commerce initiated a Section 232 investigation to determine the effects on national security of imports of legacy chips, leading-edge chips, and microelectronics."
+            ],
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 15950",
+                "Date": "Apr. 16, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "iPhones": [
+        {
+          "Status": {
+            "Status": "Threatened",
+            "Date": "May 23, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Scope": "TBD",
+          "Exemptions_Notes": {}
+        }
+      ],
+      "Lumber, timber, and derivative products": [
+        {
+          "Status": {
+            "Status": "Implemented",
+            "Effective_Date": "Oct. 14, 2025"
+          },
+          "Ad_Valorem_Rate": "10%",
+          "Scope": {
+            "Note": "See Note 37(a)-(b), Subchapter III, Chapter 99, HTSUS",
+            "Application": "Applies by HTSUS classification",
+            "HTSUS_Codes": [
+              "4403.11.00",
+              "4403.21.01",
+              "4403.22.01",
+              "4403.23.01",
+              "4403.24.01",
+              "4403.25.01",
+              "4403.26.01",
+              "4403.99.01",
+              "4406.11.00",
+              "4406.91.00",
+              "4407.11.00",
+              "4407.12.00",
+              "4407.13.00",
+              "4407.14.00",
+              "4407.19.00"
+            ]
+          },
+          "Exemptions_Notes": {
+            "Stacking_Note": "See stacking explanation below",
+            "References": [
+              {
+                "Title": "Proclamation",
+                "Date": "Sept. 29, 2025"
+              },
+              {
+                "Title": "90 Fed. Reg. 11941",
+                "Date": "Mar. 13, 2025"
+              },
+              {
+                "Title": "Exec. Order 14223",
+                "Date": "Mar. 1, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Upholstered wooden furniture": [
+        {
+          "Status": {
+            "Status": "Implemented",
+            "Effective_Date": "Oct. 14, 2025"
+          },
+          "Ad_Valorem_Rate": {
+            "UK-origin_products": "10%",
+            "EU_Member_State_and_Japan-origin_products": {
+              "Rates": [
+                {
+                  "Rate": "0%",
+                  "Scope": "for all products with a Column 1 Duty Rate ≥ 15%"
+                },
+                {
+                  "Rate": "15% minus Column 1 Duty Rate",
+                  "Scope": "for all products with a Column 1 Duty Rate < 15%"
+                }
+              ]
+            },
+            "All_other_countries": [
+              {
+                "Rate": "25%",
+                "Period": "Oct. 14-Dec. 31, 2025"
+              },
+              {
+                "Rate": "30%",
+                "Period": "starting Jan. 1, 2026"
+              }
+            ]
+          },
+          "Scope": {
+            "Note": "See Note 37(c)-(d), Subchapter III, Chapter 99, HTSUS",
+            "Application": "Applies by HTSUS classification",
+            "HTSUS_Codes": [
+              "9401.61.4011",
+              "9401.61.4031",
+              "9401.61.6011",
+              "9401.61.6031"
+            ]
+          },
+          "Exemptions_Notes": {
+            "Stacking_Note": "See stacking explanation below",
+            "References": [
+              {
+                "Title": "Proclamation",
+                "Date": "Sept. 29, 2025"
+              },
+              {
+                "Title": "90 Fed. Reg. 11941",
+                "Date": "Mar. 13, 2025"
+              },
+              {
+                "Title": "Exec. Order 14223",
+                "Date": "Mar. 1, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Kitchen cabinets and vanities": [
+        {
+          "Status": {
+            "Status": "Implemented",
+            "Effective_Date": "Oct. 14, 2025"
+          },
+          "Ad_Valorem_Rate": {
+            "UK-origin_products": "10%",
+            "EU_Member_State_and_Japan-origin_products": {
+              "Rates": [
+                {
+                  "Rate": "0%",
+                  "Scope": "for all products with a Column 1 Duty Rate ≥ 15%"
+                },
+                {
+                  "Rate": "15% minus Column 1 Duty Rate",
+                  "Scope": "for all products with a Column 1 Duty Rate < 15%"
+                }
+              ]
+            },
+            "All_other_countries": [
+              {
+                "Rate": "25%",
+                "Period": "Oct. 14-Dec. 31, 2025"
+              },
+              {
+                "Rate": "50%",
+                "Period": "starting Jan. 1, 2026"
+              }
+            ]
+          },
+          "Scope": {
+            "Note": "See Note 37(e)-(f), Subchapter III, Chapter 99, HTSUS",
+            "Application": "Applies by HTSUS classification",
+            "HTSUS_Codes": [
+              "9403.40.9060",
+              "9403.60.8093",
+              "9403.91.0080"
+            ],
+            "Description": "Includes finished kitchen cabinets and vanities, as well as parts imported for use in kitchen cabinets and vanities"
+          },
+          "Exemptions_Notes": {
+            "Stacking_Note": "See stacking explanation below",
+            "References": [
+              {
+                "Title": "Proclamation",
+                "Date": "Sept. 29, 2025"
+              },
+              {
+                "Title": "90 Fed. Reg. 11941",
+                "Date": "Mar. 13, 2025"
+              },
+              {
+                "Title": "Exec. Order 14223",
+                "Date": "Mar. 1, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Maritime cargo handling equipment": [
+        {
+          "Status": {
+            "Type": "Intermodal chassis and chassis parts",
+            "Status": "Implemented",
+            "Effective_Date": "Nov. 9, 2025"
+          },
+          "Ad_Valorem_Rate": "100%",
+          "Scope": {
+            "Note": "See Note 31(k)(i)-(ii), Subchapter III, Chapter 99, HTSUS",
+            "Description": "Chinese-origin products",
+            "HTSUS_Codes": [
+              "8716.39.0090",
+              "8716.90.30",
+              "8716.90.50"
+            ]
+          },
+          "Exemptions_Notes": {
+            "Note": "As part of the USTR's Section 301 investigation into China's targeting of the maritime, logistics, and shipbuilding sectors, President Trump directed the USTR to consider tariffs on (a) ship-to-shore cranes manufactured, assembled, or made using Chinese-origin components, or manufactured anywhere in the world by a company owned, controlled, or substantially influenced by a Chinese national; and (b) other cargo handling equipment.",
+            "References": [
+              {
+                "Title": "Fed. Reg. Doc. 2025-19568",
+                "Date": "filed Oct. 15, 2025"
+              },
+              {
+                "Title": "90 Fed. Reg. 24856",
+                "Date": "June 12, 2025"
+              },
+              {
+                "Title": "90 Fed. Reg. 17114",
+                "Date": "Apr. 23, 2025"
+              },
+              {
+                "Title": "Exec. Order 14269",
+                "Date": "Apr. 9, 2025"
+              }
+            ]
+          }
+        },
+        {
+          "Status": {
+            "Type": "Ship-to-shore gantry cranes",
+            "Status": "Implemented",
+            "Effective_Date": "Nov. 9, 2025"
+          },
+          "Ad_Valorem_Rate": "100%",
+          "Scope": {
+            "HTSUS_Code": "8426.19.00",
+            "Description": "STS cranes that are: (a) Chinese origin; (b) manufactured, assembled, or made using Chinese-origin components; or (c) or manufactured anywhere in the world by a company owned, controlled, or substantially influenced by a Chinese national",
+            "Note": "See Note 31(l)(v), Subchapter III, Chapter 99, HTSUS defining owned, controlled, or substantially influenced by a Chinese national",
+            "Chinese-origin_components": "The following Chinese-origin components, assemblies, and subassemblies bring non-Chinese-origin STS cranes within the tariffs' scope: the boom, trolley, spreader, cabin, legs, cable reel, power supply, bogie set and wheels, and any information technology equipment used to operate or control the crane."
+          },
+          "Exemptions_Notes": {
+            "Exemptions": "cranes fulfilling a contract for sale executed before April 17, 2025 and entered for consumption or withdrawn from warehouse before April 17, 2027",
+            "Note": "As part of the USTR's Section 301 investigation into China's targeting of the maritime, logistics, and shipbuilding sectors, President Trump directed the USTR to consider tariffs on (a) ship-to-shore cranes manufactured, assembled, or made using Chinese-origin components, or manufactured anywhere in the world by a company owned, controlled, or substantially influenced by a Chinese national; and (b) other cargo handling equipment.",
+            "References": [
+              {
+                "Title": "Fed. Reg. Doc. 2025-19568",
+                "Date": "filed Oct. 15, 2025"
+              },
+              {
+                "Title": "90 Fed. Reg. 24856",
+                "Date": "June 12, 2025"
+              },
+              {
+                "Title": "90 Fed. Reg. 17114",
+                "Date": "Apr. 23, 2025"
+              },
+              {
+                "Title": "Exec. Order 14269",
+                "Date": "Apr. 9, 2025"
+              }
+            ]
+          }
+        },
+        {
+          "Status": {
+            "Type": "Rubber tire gantry cranes, rail mounted gantry cranes, automatic stacking cranes, reachstackers, straddle carriers, terminal tractors and parts, top handlers/top loaders, and components of these items",
+            "Status": "Threatened",
+            "Date": "Oct. 15, 2025"
+          },
+          "Ad_Valorem_Rate": "150%",
+          "Scope": {
+            "HTSUS_Codes": [
+              "8701.95.50",
+              "8709.11.00",
+              "8709.19.00",
+              "8709.90.00",
+              "8426.12.00",
+              "8426.19.00",
+              "8426.41.00",
+              "8426.49.00",
+              "8427.20.80",
+              "8429.51.10",
+              "8429.51.50",
+              "8431.20",
+              "8431.41.00",
+              "8431.49.10"
+            ]
+          },
+          "Exemptions_Notes": {
+            "Note": "As part of the USTR's Section 301 investigation into China's targeting of the maritime, logistics, and shipbuilding sectors, President Trump directed the USTR to consider tariffs on (a) ship-to-shore cranes manufactured, assembled, or made using Chinese-origin components, or manufactured anywhere in the world by a company owned, controlled, or substantially influenced by a Chinese national; and (b) other cargo handling equipment.",
+            "References": [
+              {
+                "Title": "Fed. Reg. Doc. 2025-19568",
+                "Date": "filed Oct. 15, 2025"
+              },
+              {
+                "Title": "90 Fed. Reg. 24856",
+                "Date": "June 12, 2025"
+              },
+              {
+                "Title": "90 Fed. Reg. 17114",
+                "Date": "Apr. 23, 2025"
+              },
+              {
+                "Title": "Exec. Order 14269",
+                "Date": "Apr. 9, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Movies": [
+        {
+          "Status": {
+            "Status": "Threatened",
+            "Date": "May 4, 2025"
+          },
+          "Ad_Valorem_Rate": "100%",
+          "Scope": "All foreign-produced movies",
+          "Exemptions_Notes": {
+            "Note": "President Trump authorized Commerce and the USTR to initiate an investigation to implement these tariffs."
+          }
+        }
+      ],
+      "Oil and gas": [
+        {
+          "Status": {
+            "Status": "Threatened to start Feb. 18, 2025",
+            "Date": "Jan. 31, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Scope": "TBD",
+          "Exemptions_Notes": {}
+        }
+      ],
+      "Personal protective equipment, medical consumables, and medical equipment (including devices)": [
+        {
+          "Status": {
+            "Status": "Threatened",
+            "Date": "Sept. 24, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Scope": {
+            "Investigation": "On September 2, Commerce initiated a Section 232 investigation to determine the effects on national security of imports of personal protective equipment, medical consumables, and medical equipment (including devices).",
+            "Definitions": {
+              "Personal protective equipment (PPE)": "refers to PPE used in health care settings. PPE includes, but is not limited to, surgical masks, N95 respirators, gloves, gowns, and related medical parts and components.",
+              "Medical consumables": "refers to single-use or short-term-use items used for patient diagnosis, treatment, and prevention of conditions. Medical consumables include but are not limited to: medical/surgical instruments (e.g., syringes, needles, infusion (IV) pumps, forceps, scalpels); medical/surgical supplies (e.g., intravenous (IV) bags, catheters, tracheostomy tubes, anesthesia equipment, gauze/bandages, sutures, diagnostic and laboratory reagents); and related medical parts and components. Pharmaceuticals, such as prescription drugs, over-the-counter drugs, biologics, and specialty drugs, will not be covered under this investigation as those imports are being examined in a separate Section 232 investigation.",
+              "Medical equipment": "refers broadly as durable equipment, tools, and machines used in healthcare to support patient care. Examples include but are not limited to: carriages and wheelchairs; crutches; and hospital beds.",
+              "Medical device": "is any instrument, apparatus, or machine used in the diagnosis, monitoring, or treatment of medical conditions. Examples include but are not limited to: pacemakers; insulin pumps; coronary stents; heart valves; hearing aids; robotic and non-robotic prosthetics; blood glucose monitors; orthopedic appliances; electromedical apparatus (e.g., computed tomography scanners, magnetic resonance imaging machines); electrosurgical apparatus; x-ray apparatus/other radiation equipment; respiratory machines (e.g., ventilators, respirators, oxygen apparatus); and MRI machines."
+            }
+          },
+          "Exemptions_Notes": {
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 46383",
+                "Date": "Sept. 26, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Pharmaceuticals, pharmaceutical ingredients, and derivative products": [
+        {
+          "Status": {
+            "Status": "Threatened to start Oct. 1",
+            "Date": "Feb. 18, 2025",
+            "Threatened_rate_announced": "July 8, 2025"
+          },
+          "Ad_Valorem_Rate": "100%",
+          "Scope": {
+            "Announcement": "Announced on Truth Social (Sept. 25, 2025): all branded or patented pharmaceutical products"
+          },
+          "Exemptions_Notes": {
+            "Exemption": "Exemption announced on Truth Social (Sept. 25, 2025): products produced by companies building a manufacturing facility in the United States, including facilities where a company has broken ground",
+            "Investigation": "On April 1, Commerce initiated a Section 232 investigation to determine the effects on national security of imports of pharmaceuticals, pharmaceutical ingredients, and derivative products.",
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 15951",
+                "Date": "Apr. 16, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Polysilicon and its derivatives": [
+        {
+          "Status": {
+            "Status": "Threatened",
+            "Date": "July 14, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Scope": "TBD",
+          "Exemptions_Notes": {
+            "Investigation": "On July 1, Commerce initiated a Section 232 investigation to determine the effects on national security of imports of polysilicon and its derivatives.",
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 31955",
+                "Date": "July 16, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Processed critical minerals and derivative products": [
+        {
+          "Status": {
+            "Status": "Threatened",
+            "Date": "Apr. 15, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Scope": "TBD",
+          "Exemptions_Notes": {
+            "Definitions": {
+              "Processed critical minerals": "are critical minerals that have undergone activities that occur after critical mineral ore is extracted from a mine up through its conversion into a metal, metal powder, or a master alloy.",
+              "Derivative products": "include all goods that incorporate processed critical minerals as inputs, including semi-finished goods (e.g., semiconductor wafers, anodes, cathodes) and final products (e.g., permanent magnets, motors, electric vehicles, batteries, smartphones, microprocessors, radar systems, wind turbines and their components, advanced optical devices)."
+            },
+            "Investigation": "On April 22, Commerce initiated a Section 232 investigation to determine the effects on the national security of imports of processed critical minerals, as well as their derivative products.",
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 17372",
+                "Date": "Apr. 25, 2025"
+              },
+              {
+                "Title": "Exec. Order 14272",
+                "Date": "Apr. 16, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Robotics and industrial machinery": [
+        {
+          "Status": {
+            "Status": "Threatened",
+            "Date": "Sept. 24, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Scope": {
+            "Investigation": "On September 2, Commerce initiated a Section 232 investigation to determine the effects on national security of imports of robotics and industrial machinery.",
+            "Definition": "'Robotics and industrial machinery' includes, among other things, robots and programmable, computer-controlled mechanical systems. This equipment spans CNC machining centers, turning and milling machines, grinding and deburring equipment, and industrial stamping and pressing machines. It also includes automatic tool changers, jigs and fixtures, and machine tools for cutting, welding, and handling work pieces. Application-specific specialty metalworking equipment used to treat, form, or cut metal, such as autoclaves and industrial ovens, metal finishing and treatment equipment, EDM machinery, and laser and water-cutting tools and machinery is also included. Unmanned aircraft systems are not covered."
+          },
+          "Exemptions_Notes": {
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 46382",
+                "Date": "Sept. 26, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Semiconductors, semiconductor manufacturing equipment, and derivative products": [
+        {
+          "Status": {
+            "Status": "Threatened",
+            "Date": "Aug. 6, 2025"
+          },
+          "Ad_Valorem_Rate": "100%",
+          "Scope": "TBD",
+          "Exemptions_Notes": {
+            "Note": "See integrated circuits above",
+            "Investigation": "On April 1, Commerce initiated a Section 232 investigation to determine the effects on national security of imports of semiconductors; semiconductor manufacturing equipment; and derivative products, including downstream products that contain semiconductors.",
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 15950",
+                "Date": "Apr. 16, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Steel articles and derivative products": [
+        {
+          "Status": {
+            "Status": "Implemented",
+            "Effective_Date": "Mar. 12, 2025",
+            "Increased_Date": "June 4, 2025",
+            "Amended_Date": "June 16, 2025"
+          },
+          "Ad_Valorem_Rate": {
+            "UK-origin_products": "25%",
+            "All_other_countries": "50%"
+          },
+          "Scope": {
+            "Note": "See Note 16, Subchapter III, Chapter 99, HTSUS",
+            "Application": "Applies by HTSUS classification",
+            "Expansion": "Includes additional derivative products (effective Aug. 18, 2025)"
+          },
+          "Exemptions_Notes": {
+            "Stacking_Note": "See stacking explanation below",
+            "Calculation": "(a) Steel tariff applies to the known value of the steel content (b) Remaining value is subject to the applicable reciprocal tariff (or 'fentanyl' tariff for Canadian- and Mexican-origin goods)",
+            "Exemptions": [
+              {
+                "Type": "UK aerospace exemption",
+                "Effective_Date": "June 23, 2025"
+              },
+              {
+                "Type": "EU aerospace exemption",
+                "Effective_Date": "Sept. 1, 2025"
+              },
+              {
+                "Type": "Japan aerospace exemption",
+                "Effective_Date": "Sept. 16, 2025"
+              }
+            ],
+            "UK_aerospace_exemption_details": "applies to products that fall under the WTO Agreement on Trade in Civil Aircraft. On or after July 9, 2025, the Secretary of Commerce may adjust the tariff rate for UK-origin products or implement import quotas, consistent with the U.S.-UK Economic Prosperity Deal announced on May 8, 2025.",
+            "EU_aerospace_exemption_details": "applicable products listed by HTSUS classification that satisfy the scope limitations in U.S. Note 2(v)(xviii), Subchapter III, Chapter 99, HTSUS",
+            "Japan_aerospace_exemption_details": "applies to products that fall under the WTO Agreement on Trade in Civil Aircraft (except unmanned aircraft)",
+            "Stacking_Mar4_Jun4_2025": "goods that are also subject to (a) the Section 232 tariffs on automobiles or automobile parts or (b) the tariffs on Canadian- and Mexican-origin goods are not subject to the Section 232 tariffs on steel and derivative products. All country exclusions from the existing Section 232 tariffs on aluminum and derivative aluminum articles are revoked. Individual exclusions and General Authorized Exclusions are also being revoked.",
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 43136",
+                "Date": "Sept. 25, 2025"
+              },
+              {
+                "Title": "Exec. Order 14345",
+                "Date": "Sept. 4, 2025"
+              },
+              {
+                "Title": "Exec. Order 14309",
+                "Date": "June 16, 2025"
+              },
+              {
+                "Title": "90 Fed. Reg. 25208",
+                "Date": "June 16, 2025"
+              },
+              {
+                "Title": "Proclamation 10947",
+                "Date": "June 3, 2025"
+              },
+              {
+                "Title": "Exec. Order 14289",
+                "Date": "Apr. 29, 2025"
+              },
+              {
+                "Title": "Proclamation 10896",
+                "Date": "Feb. 10, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Trucks and truck parts": [
+        {
+          "Status": {
+            "Type": "Medium- and heavy-duty vehicles",
+            "Status": "Implemented",
+            "Effective_Date": "Nov. 1, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Scope": {
+            "Note": "See Note 38(b), Subchapter III, Chapter 99, HTSUS",
+            "Application": "Applies by HTSUS classification"
+          },
+          "Exemptions_Notes": {
+            "Stacking_Note": "See stacking explanation below",
+            "Exemption": "Vehicles manufactured 25+ years ago",
+            "Potential_reduction": "USMCA (if approved by Commerce on an importer-by-importer basis). Importers of vehicles that qualify for preferential treatment under the USMCA can submit documentations to the Secretary of Commerce identifying the amount of U.S. content in each model imported into the United States. 'U.S. content' means the value of the vehicle attributable to U.S.-based activity supporting domestic production. If approved, the tariff will only apply to the value of the vehicle's non-U.S. content.",
+            "References": [
+              {
+                "Title": "Proclamation",
+                "Date": "Oct. 17, 2025"
+              },
+              {
+                "Title": "90 Fed. Reg. 17371",
+                "Date": "Apr. 25, 2025"
+              }
+            ]
+          }
+        },
+        {
+          "Status": {
+            "Type": "Buses",
+            "Status": "Implemented",
+            "Effective_Date": "Nov. 1, 2025"
+          },
+          "Ad_Valorem_Rate": "10%",
+          "Scope": {
+            "Note": "See Note 38(c), Subchapter III, Chapter 99, HTSUS",
+            "Application": "Applies by HTSUS classification"
+          },
+          "Exemptions_Notes": {
+            "Stacking_Note": "See stacking explanation below",
+            "Exemption": "Vehicles manufactured 25+ years ago"
+          }
+        },
+        {
+          "Status": {
+            "Type": "Medium- and heavy-duty vehicle parts",
+            "Status": "Implemented",
+            "Effective_Date": "Nov. 1, 2025"
+          },
+          "Ad_Valorem_Rate": "25%",
+          "Scope": {
+            "Note": "See Note 38(i), Subchapter III, Chapter 99, HTSUS",
+            "Application": "Applies by HTSUS classification"
+          },
+          "Exemptions_Notes": {
+            "Stacking_Note": "See stacking explanation below",
+            "Exemption": "USMCA. With the exception of knock-down kits or equivalent parts compilations (as determined by CBP), parts that qualify for preferential treatment under the USMCA will be exempt until Commerce and CBP establish a process for applying the tariff to only the value of the parts' non-U.S. content.",
+            "Potential_reduction": "Domestic manufacturer's import adjustment. Medium- and heavy-duty vehicle (MHDV) manufacturers can apply for an import adjustment offset equal to 3.75% of the aggregate value of all MHDVs they assemble in the United States from November 1, 2025 through October 31, 2030. The import adjustment will be applied to parts accounting for 15% of the MHDV's value. To be included in the import adjustment calculation, the MHDV must undergo final assembly in the United States.",
+            "Drawback_eligibility": "manufacturing drawback only (effective Oct. 17, 2025)",
+            "References": [
+              {
+                "Title": "Proclamation",
+                "Date": "Oct. 17, 2025"
+              },
+              {
+                "Title": "90 Fed. Reg. 17371",
+                "Date": "Apr. 25, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Unmanned aircraft systems and their parts and components": [
+        {
+          "Status": {
+            "Status": "Threatened",
+            "Date": "July 14, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Scope": "TBD",
+          "Exemptions_Notes": {
+            "Investigation": "On July 14, Commerce initiated a Section 232 investigation to determine the effects on the national security of imports of unmanned aircraft systems (UAS) and their parts and components.",
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 31985",
+                "Date": "July 16, 2025"
+              }
+            ]
+          }
+        }
+      ],
+      "Wind turbines and their parts and components": [
+        {
+          "Status": {
+            "Status": "Threatened",
+            "Date": "Aug. 21, 2025"
+          },
+          "Ad_Valorem_Rate": "TBD",
+          "Scope": "TBD",
+          "Exemptions_Notes": {
+            "Investigation": "On August 13, Commerce initiated a Section 232 investigation to determine the effects on the national security of imports of wind turbines and their parts and components.",
+            "References": [
+              {
+                "Title": "90 Fed. Reg. 41380",
+                "Date": "Aug. 25, 2025"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "Reciprocal_Tariff_Exemptions": {
+    "Description": "The following foreign-origin items are exempt from the reciprocal tariffs:",
+    "Exemptions": [
+      {
+        "Title": "Goods subject to the savings clause",
+        "Content": "which requires the goods to be (1) loaded onto a vessel at the port of loading and in transit on the final mode of transit before 12:01 a.m. (ET) on August 7, 2025, and (2) entered for consumption, or withdrawn for warehouse for consumption, before 12:01 a.m. (ET) on October 5, 2025. The savings clause does not apply to goods subject to the 10% baseline reciprocal tariffs."
+      },
+      {
+        "Title": "Goods subject to the Section 232 tariffs",
+        "Content": "on articles and derivatives of aluminum and steel, automobiles, automobile parts, and semi-finished copper and intensive copper derivative products."
+      },
+      {
+        "Title": "Additional articles listed in Annex II to Executive Order 14257",
+        "Content": "(as amended), including copper, pharmaceuticals, semiconductors, lumber articles, certain critical minerals, and energy and energy products. On September 29, President Trump modified Annex II to remove all HTSUS subheadings in Chapter 44 except those that (a) are included on the Potential Tariff Adjustments for Aligned Partners Annex to Executive Order 14346; and (b) do not include products subject to an antidumping or countervailing duty order. These modifications are effective October 14."
+      }
+    ]
+  },
+  "Tariff_Stacking": {
+    "General_Stacking_Rules": {
+      "Description": "The following duties and tariffs always stack on top of any other applicable tariffs:",
+      "Rules": [
+        "General duties.",
+        "Any applicable antidumping or countervailing duties.",
+        "Any applicable Section 301 tariffs on Chinese-origin goods.",
+        "Any applicable 'fentanyl' tariffs on Chinese-origin goods."
+      ]
+    },
+    "Product_Specific_Section_232_Stacking_Rules": {
+      "Description": "The product-specific Section 232 tariffs are subject to the following stacking rules:",
+      "Rules": [
+        "The automobile, automobile parts, bus, medium- and heavy-duty vehicle (MHDV), and MHDV parts tariffs do not stack on top of (a) any other Section 232 tariffs, (b) any applicable reciprocal tariffs, or (c) any applicable 'fentanyl' tariffs on Canadian- or Mexican-origin goods.",
+        "The aluminum and steel tariffs can stack on top of each other if the product is subject to both.",
+        "The aluminum, steel, copper, and lumber tariffs do not stack on top of (a) any applicable reciprocal tariffs or (b) any applicable 'fentanyl' tariffs on Canadian- or Mexican-origin goods."
+      ]
+    },
+    "Other_Stacking_Rules": "The stacking rules for secondary tariffs and the 'free-speech' tariffs on Brazilian-origin goods are explained in that country's section of the tracker."
+  },
+  "Updates_and_relevant_Publications": [
+    {
+      "Date": "Oct. 27, 2025",
+      "Content": "The USTR released a Federal Register notice indicating announcing the initiation of a Section 301 investigation into China's apparent failure to comply with the 2020 Economic and Trade Agreement Between the Government of the United States of America and the Government of the People's Republic of China (Phase One Agreement). The docket for written comments will open on October 31, and comments must be submitted by December 1. The Section 301 Committee will convene a public hearing on December 16."
+    },
+    {
+      "Date": "Oct. 15, 2025",
+      "Content": "The USTR released a Federal Register notice imposing 100% ad valorem tariffs on ship-to-shore (STS) cranes and certain Chinese-origin maritime cargo handling equipment. The USTR also proposed tariffs on additional Chinese-origin maritime cargo handling equipment. Public comments must be submitted by November 10."
+    },
+    {
+      "Date": "Sept. 24, 2025",
+      "Content": "Commerce released Federal Register notices about newly initiated Section 232 investigations into (1) personal protective equipment, medical consumables, and medical equipment (including devices) and (2) robotics and industrial machinery. Public comments must be submitted by October 17."
+    },
+    {
+      "Date": "Sept. 17, 2025",
+      "Content": "Commerce published an interim final rule establishing the process for including additional automobile parts for passenger vehicles and light trucks within the scope of the Section 232 tariffs. Under the interim final rule, the International Trade Administration (ITA) will allow inclusion requests to be submitted by domestic producers of automobiles or automobile parts, or industry associations representing those producers, during four windows each year: at the beginning of January, April, July, and October. After the ITA's review, non-confidential versions of the requests will be published for a 14-day comment period. The ITA will generate a decision memo on each request within 60 days of submission. A Federal Register notice will be issued shortly after the decision memo identifying the new automobile parts subject to the Section 232 tariffs. The October 2025 inclusion window will open on October 1."
+    },
+    {
+      "Date": "Sept. 15, 2025",
+      "Content": "Commerce released a Federal Register notice announcing the opening of the inclusions window for the Section 232 steel and aluminum tariff inclusions process. The window will be open from September 15 to September 29. After the submission window closes, the submission window, accepted inclusion requests will be posted for a two-week public comment period on Docket ID BIS-2025-0023 on Regulations.gov."
+    },
+    {
+      "Date": "Sept. 5, 2025",
+      "Content": "President Trump signed an executive order modifying Annex II to Executive Order 14257. Annex III to the executive order also identifies 1,908 HTSUS subheadings that are potentially eligible to be exempted from the reciprocal tariffs for each trading partner that concludes a trade agreement with the United States. Trade agreement-related exemptions will be determined by the Secretary of Commerce and U.S. Trade Representative."
+    },
+    {
+      "Date": "Sept. 4, 2025",
+      "Content": "Tariff enforcement webinar: navigating DOJ's new priorities and increased FCA risk"
+    },
+    {
+      "Date": "Aug. 29, 2025",
+      "Content": "The USTR released a Federal Register notice extending 178 Section 301 exclusions that were scheduled to expire on September 1. The exclusions will now remain valid through November 29, 2025. The extensions are available for any product that meets the description in the product exclusion."
+    },
+    {
+      "Date": "Aug. 21, 2025",
+      "Content": "Commerce released a Federal Register notice about a newly initiated Section 232 investigation into wind turbines and their parts and components. Public comments must be submitted by September 9."
+    },
+    {
+      "Date": "Aug. 15, 2025",
+      "Content": "Commerce released a Federal Register notice expanding the list of aluminum and steel derivative products subject to Section 232 tariffs. Effective August 18, 407 additional HTSUS codes will be considered aluminum and steel derivative products subject the Section 232 tariffs. The tariff will apply to the value of the aluminum or steel content in the derivative product. The non-aluminum or non-steel content will remain subject to any other applicable tariffs, including the reciprocal tariffs."
+    },
+    {
+      "Date": "July 30, 2025",
+      "Content": "President Trump signed an executive order suspending the de minimis exemption, effective August 29, 2025. Shipments that are not sent through the international postal network will be subject to all applicable duties, tariffs, taxes fees, and exactions. Shipments sent through the international postal network will be subject to duties and tariffs based on the transportation carrier's chosen methodology, which will either be: (a) duties and tariffs equal to the effective, applicable International Emergency Economic Powers Act (IEEPA) tariff rate assessed on the value of each package; or (b) a per package rate that varies depending on the effective, applicable IEEPA tariff rate. Under the per package methodology, the rates are: (1) $80 for countries with an effective IEEPA tariff rate less than 16%; (2) $160 for countries with a 16-25% effective IEEPA tariff rate; or (3) $200 for countries with an effective IEEPA tariff rate above 25%. “Effective IEEPA tariff rate” means the total 'fentanyl' and reciprocal tariff rate that applies based on the product's country of origin (after applying the 'stacking' exceptions in Executive Order 14289, as amended). Transportation carriers may only update their methodology monthly. The exception for postal shipments may be revoked once the Secretary of Commerce informs the President that adequate systems are in place to fully and expeditiously process and collect duties applicable on all postal shipments."
+    },
+    {
+      "Date": "July 30, 2025",
+      "Content": "President Trump issued a proclamation imposing Section 232 tariffs on certain semi-finished copper products and intensive copper derivative products, effective August 1. By October 28, the Secretary of Commerce will establish a process for including additional derivative copper articles within the scope of the Section 232 tariffs imposed under the proclamation."
+    },
+    {
+      "Date": "July 17, 2025",
+      "Content": "The USTR announced a Section 301 investigation into Brazil's acts, policies, and practices related to digital trade and electronic payment services; unfair, preferential tariffs; anti-corruption enforcement; intellectual property protection; ethanol market access; and illegal deforestation. A public hearing is scheduled for September 3, 2025. Written comments and requests to appear at the hearing are due on August 18."
+    },
+    {
+      "Date": "July 14, 2025",
+      "Content": "Commerce released a Federal Register notice about newly initiated Section 232 investigations into (1) polysilicon and its derivatives and (2) unmanned aircraft systems and their parts and components. Public comments must be submitted by August 6, 2025."
+    },
+    {
+      "Date": "July 14, 2025",
+      "Content": "DOJ dedicates significant resources to priority of investigating and prosecuting tariff evasion"
+    },
+    {
+      "Date": "June 27, 2025",
+      "Content": "In response to Canada's decision to proceed with a 3% digital services tax (DST) on technology companies, President Trump terminated the United States' trade discussions with Canada. The United States is expected to announce a new, Canada-specific tariff rate within seven days. It is not yet clear whether that tariff will be in addition to the 'fentanyl' tariffs already in place for Canadian-origin goods that do not qualify for duty-free treatment under the USMCA."
+    },
+    {
+      "Date": "June 12, 2025",
+      "Content": "Commerce released a Federal Register notice expanding the list of steel derivative products subject to Section 232 tariffs. The new products added to the steel derivatives list are: (1) combined refrigerator-freezers (8418.10.00 HTSUS); (2) small and large dryers (84521.21.00 and 8451.29.00); (3) washing machines (8450.11.00 and 8450.20.00 HTSUS); (4) dishwashers (8422.11.00 HTSUS); (5) chest and upright freezers (8418.30.00 and 8418.40.00 HTSUS); (6) cooking stoves, ranges, and ovens (8516.60.40 HTSUS); (7) food waste disposals (8509.80.20 HTSUS); and (8) welded wire rack (9403.99.9020 HTSUS)."
+    },
+    {
+      "Date": "June 3, 2025",
+      "Content": "President Trump issued a proclamation adjusting the Section 232 steel and aluminum tariff rates and amending Executive Order 14289. In addition to increasing the tariff rate, the proclamation imposes: (1) the increased tariff rate on imports of goods listed in the yet-to-be-published Annex II that were previously admitted to a free trade zone under privileged foreign status when entered for consumption; (2) only the value of the aluminum content of articles in Chapter 76 or the steel content of articles in Chapter 73 are subject to the increased tariff rate; and (3) the reciprocal tariffs on the non-aluminum, non-steel content of all aluminum and steel articles and derivates. Under the amended Executive Order 14289, goods subject the Section 232 tariffs on aluminum and steel articles or derivative products are not also subject to the tariffs on Canadian- or Mexican-origin goods. This exception was previously flipped."
+    },
+    {
+      "Date": "June 3, 2025",
+      "Content": "The U.S. District Court for the District of Columbia stayed its preliminary injunction in Learning Resources v. Trump pending the outcome of the government's appeal."
+    },
+    {
+      "Date": "May 29, 2025",
+      "Content": "The U.S. District Court for the District of Columbia issued a preliminary injunction in Learning Resources v. Trump, concluding that the International Emergency Economic Powers Act does not enable the President to impose the 'fentanyl' and reciprocal tariffs. The preliminary injunction only applied to the named plaintiffs. The government filed notice of its appeal and asked the court to issue a stay."
+    },
+    {
+      "Date": "May 29, 2025",
+      "Content": "On May 29, the Court of Appeals for the Federal Circuit issued an immediate administrative stay of the CIT's judgment and injunction. The plaintiffs-appellees have until June 5 to respond to the government's motion for a stay. The government will have until June 9 to file a reply brief. The Federal Circuit will then consider the motion to stay the CIT's judgment and injunction pending the outcome of the appeal. In the meantime, the 'fentanyl' and reciprocal tariffs remain in effect."
+    },
+    {
+      "Date": "May 29, 2025",
+      "Content": "Federal court permanent enjoins 'fentanyl' and reciprocal tariffs; Trump requests stay."
+    },
+    {
+      "Date": "May 28, 2025",
+      "Content": "The Court of International Trade declared the executive orders implementing (1) the 'fentanyl' tariffs on Canada, China, and Mexico and (2) the reciprocal tariffs invalid as contrary to law. The court permanently enjoined each of the relevant executive orders."
+    },
+    {
+      "Date": "May 15, 2025",
+      "Content": "U.S. Customs and Border Protection (CBP) released the HTSUS modifications to implement Executive Order 14289 (Addressing Certain Tariffs on Imported Articles). The executive order is retroactive for covered goods entered for consumption, or withdrawn for warehouse for consumption, on or after March 4. Importers may request refunds by filing post summary corrections or protests (as applicable)."
+    },
+    {
+      "Date": "May 13, 2025",
+      "Content": "Commerce released a Federal Register notice about a newly initiated Section 232 investigation into imports commercial aircraft and jet engines and parts of commercial aircraft and jet engines. Public comments must be submitted by June 3, 2025."
+    },
+    {
+      "Date": "May 12, 2025",
+      "Content": "President Trump signed an executive order reducing the duties imposed on imports of Chinese-origin goods that would otherwise qualify for the de minimis exemption, effective May 14. Goods sent through the international postal network will be subject to duties of (a) 54% ad valorem or (b) $100 per item. The per item dollar amount will no longer increase to $200 on June 1."
+    },
+    {
+      "Date": "May 8, 2025",
+      "Content": "The EU launched a public consultation on potential countermeasures to the U.S. automotive, reciprocal, and aluminum tariffs. These measures may be implemented if the EU's negotiations with the United States are unsuccessful. Products under review for additional EU import duties include aircraft, automobiles, medical devices, IT equipment, and industrial machinery—covering €95 billion in U.S. originating imports. On the export side, scrap metals and chemicals are being considered for restrictions—covering €4.5 billion in EU exports. Comments are due by June 10."
+    },
+    {
+      "Date": "May 1, 2025",
+      "Content": "CBP announced that by May 16, it will publish tariff refund procedures and HTSUS modifications to implement Executive Order 14289 (Addressing Certain Tariffs on Imported Articles)."
+    },
+    {
+      "Date": "Apr. 30, 2025",
+      "Content": "Commerce released an interim final rule establishing the process for requesting that additional derivative aluminum and steel articles be subject to the Section 232 tariffs. The interim final rule is effective April 30, and public comments are due by June 14. Under the interim final rule, the Bureau of Industry and Security (BIS) will allow inclusion requests to be submitted during three windows each year: May, September, and January. After BIS's review, non-confidential versions of the requests will be published for a 14-day comment period. BIS will generate a decision memo on each request within 60 days of submission. A Federal Register notice will be issued shortly after the decision memo identifying new derivative products subject to the Section 232 tariffs."
+    },
+    {
+      "Date": "Apr. 29, 2025",
+      "Content": "President Trump signed an executive order to prevent the cumulative effect of certain tariffs (also called 'stacking'). Thus, (1) goods subject to the Section 232 tariffs on automobiles or automobile parts are not also subject to the tariffs on Canadian- or Mexican-origin goods or any applicable Section 232 tariffs on aluminum and steel articles or derivative products; and (2) goods subject to the tariffs on Canadian- or Mexican-origin goods are not also subject to any applicable Section 232 tariffs on aluminum and steel articles or derivative products. These changes apply retroactively to any entries on or after March 4. CBP will process refunds pursuant to its standard procedures."
+    },
+    {
+      "Date": "Apr. 24, 2025",
+      "Content": "CBP released the HTSUS modifications that will implement the elimination of the de minimis exemption for Chinese origin products, effective May 2."
+    },
+    {
+      "Date": "Apr. 23, 2025",
+      "Content": "Commerce released two Federal Register notices about newly initiated Section 232 investigations into (1) critical minerals and derivative products and (2) medium- and heavy-duty trucks and truck parts, as well as derivative products. Public comments are due within 21 days of the notices being published in the Federal Register, which is currently scheduled for April 25."
+    },
+    {
+      "Date": "Apr. 18, 2025",
+      "Content": "USTR imposes fees and restrictions on certain maritime transport services"
+    },
+    {
+      "Date": "Apr. 14, 2025",
+      "Content": "Commerce released two Federal Register notices about newly initiated Section 232 investigations into imports of (1) pharmaceuticals, pharmaceutical ingredients, and derivative products and (2) semiconductors, semiconductor manufacturing equipment, and derivative products. The pharmaceuticals investigation will cover finished generic and non-generic drug products, medical countermeasures, critical inputs such as active pharmaceutical ingredients and key starting materials, and derivative products of those items. The semiconductors investigation will cover semiconductor substrates and bare wafers, legacy chips, leading-edge chips, microelectronics, and SME components, as well as downstream products that contain semiconductors (e.g., electronics). Public comments are due within 21 days of the notices being published in the Federal Register, which is currently scheduled for April 16."
+    },
+    {
+      "Date": "Apr. 11, 2025",
+      "Content": "President Trump issued a presidential memorandum to expand the reciprocal tariff exceptions to include the following HTSUS headings and subheadings: 8471, 8473.30, 8486, 8517.13.00, 8517.62.00, 8523.51.00, 8524, 8528.52.00, 8541.10.00, 8541.21.00, 8541.29.00, 8541.30.00, 8541.49.10, 8541.49.70, 8541.49.80, 8541.49.95, 8541.51.00, 8541.59.00, 8541.90.00, and 8542. CBP will issue refunds for any tariffs collected on imports classified under these headings or subheadings since April 5."
+    },
+    {
+      "Date": "Apr. 9, 2025",
+      "Content": "President Trump signed an executive order increasing the tariffs that will be imposed on imports of Chinese-origin goods that would otherwise qualify for the de minimis exemption, effective May 2. Goods sent through the international postal network will be subject to duties of (a) 120% ad valorem or (b) $100 per item. The per item dollar amount will increase to $200, effective at 12:01 a.m. (ET) on June 1."
+    },
+    {
+      "Date": "Apr. 8, 2025",
+      "Content": "President Trump signed an executive order increasing the tariffs that will be imposed on imports of Chinese-origin goods that would otherwise qualify for the de minimis exemption, effective May 2. Goods sent through the international postal network will be subject to duties of (a) 90% ad valorem or (b) $75 per item. The per item dollar amount will increase to $150, effective at 12:01 a.m. (ET) on June 1."
+    },
+    {
+      "Date": "Apr. 8, 2025",
+      "Content": "CBP released guidance indicating that the reciprocal tariff savings clause for imports otherwise subject to country-specific tariff rates will also remain in effect until 12:00 a.m. (ET) on May 27."
+    },
+    {
+      "Date": "Apr. 4, 2025",
+      "Content": "CBP released guidance indicating that the reciprocal tariff savings clause for imports on or after 12:01 a.m. (ET) on April 5 will remain in effect until 12:00 a.m. (ET) on May 27. The savings clause applies to goods loaded onto a vessel at the port of loading and in transit on the final mode of transport before entry into the United States before 12:01 a.m. (ET) on April 5."
+    },
+    {
+      "Date": "Apr. 2, 2025",
+      "Content": "U.S. imposes 10% baseline tariffs; higher reciprocal tariffs for targeted countries (updated Apr. 3, 2025)"
+    },
+    {
+      "Date": "Mar. 28, 2025",
+      "Content": "What impact will President Trump's reciprocal tariffs have on the United Kingdom?"
+    },
+    {
+      "Date": "Mar. 27, 2025",
+      "Content": "In response to the new U.S. tariffs on automobiles and automobile parts, the Chair of the International Trade Committee in the European Parliament suggested placing tariffs on U.S. digital services."
+    },
+    {
+      "Date": "Mar. 25, 2025",
+      "Content": "Tariff mitigation through alternative sourcing: Navigating customs country of origin compliance risks"
+    },
+    {
+      "Date": "Mar. 24, 2025",
+      "Content": "President Trump signed an executive order granting the Secretary of State discretion to impose a 25% tariff on imports of goods from any country that directly or indirectly purchases Venezuelan oil, effective April 2, 2025. Unless terminated earlier, the tariffs will expire on year after the last date on which the country imported Venezuelan oil. 'Venezuelan oil' means crude oil or petroleum products extracted, refined, or exported from Venezuela, regardless of the nationality of the entity involved in the production or sale of such crude oil or petroleum products."
+    },
+    {
+      "Date": "Mar. 11, 2025",
+      "Content": "The Commerce Department initiated Section 232 investigations into imports of copper and timber and lumber. The deadline to submit comments is April 1, 2025."
+    },
+    {
+      "Date": "Mar. 3, 2025",
+      "Content": "The following Federal Register notices implementing the following tariffs were made available for public inspection: (1) adjusted Section 232 tariffs on steel imports; (2) adjusted Section 232 tariffs on aluminum imports; (3) tariffs on imports of Canadian-origin goods; and (4) tariffs on imports of Mexican-origin goods."
+    },
+    {
+      "Date": "Feb. 25, 2025",
+      "Content": "The USTR is seeking public comments, on a country-by-country basis, about any unfair trade practice or non-reciprocal trade arrangement. The deadline to submit comments is March 11, 2025."
+    },
+    {
+      "Date": "Feb. 17, 2025",
+      "Content": "The EU released a Q&A document on the United States' reciprocal tariff policy. The document does not outline specific countermeasures the EU intends to implement but does indicate that the EU remains open to negotiations with the U.S. on balanced trade."
+    },
+    {
+      "Date": "Feb. 11, 2025",
+      "Content": "Trump adjusts steel and aluminum tariff; directs Customs to increase enforcement"
+    },
+    {
+      "Date": "Feb. 4, 2025",
+      "Content": "U.S. and China in tariff tit for tat; Canadian and Mexican tariffs delayed"
+    },
+    {
+      "Date": "Feb. 3, 2025",
+      "Content": "U.S. imposes tariffs on Canada, China, and Mexico; retaliation promised"
+    },
+    {
+      "Date": "Jan. 28, 2025",
+      "Content": "Key investigations and enforcement trends: Top takeaways for 2025"
+    },
+    {
+      "Date": "Nov. 6, 2024",
+      "Content": "International trade in a second Trump presidency."
+    }
+  ]
+}
