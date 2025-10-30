@@ -2,3 +2,8 @@
 __pycache__/
 hts_ai_rag
 data
+env
+alembic/
+.vscode
+data/
+alembic.ini

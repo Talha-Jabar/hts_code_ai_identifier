@@ -4,11 +4,12 @@ Converts CSV and Excel files to JSON format for database import.
 Handles HTS processed CSV and Tariff Programs Excel file.
 """
 import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).resolve().parent.parent))
 print(sys.executable)
-
+import openpyxl
 import pandas as pd
 import json
-from pathlib import Path
 from typing import Dict, List
 import re
 
@@ -19,7 +20,7 @@ class DataConverter:
     Prepares data for database insertion with proper structure.
     """
     
-    def __init__(self, base_dir: Path = None):
+    def __init__(self, base_dir: Path = None): # type: ignore
         """
         Initialize converter with base directory.
         
@@ -33,7 +34,7 @@ class DataConverter:
         # Create json directory if it doesn't exist
         self.json_dir.mkdir(parents=True, exist_ok=True)
     
-    def convert_hts_csv_to_json(self, csv_path: Path = None) -> Path:
+    def convert_hts_csv_to_json(self, csv_path: Path = None) -> Path: # type: ignore
         """
         Converts HTS processed CSV to JSON format.
         
@@ -97,7 +98,7 @@ class DataConverter:
         print(f"✓ Converted {len(hts_records)} HTS records to JSON: {output_path}")
         return output_path
     
-    def convert_tariff_programs_to_json(self, excel_path: Path = None) -> Path:
+    def convert_tariff_programs_to_json(self, excel_path: Path = None) -> Path: # type: ignore
         """
         Converts Tariff Programs Excel to JSON format.
         
@@ -115,6 +116,8 @@ class DataConverter:
             raise FileNotFoundError(f"Tariff Programs Excel file not found at: {excel_path}")
         
         print(f"Reading Tariff Programs Excel from: {excel_path}")
+        import importlib.util
+        print("openpyxl found:", importlib.util.find_spec("openpyxl"))
         
         # Read Excel file
         df = pd.read_excel(excel_path, dtype=str, engine="openpyxl").fillna("")
